@@ -79,12 +79,11 @@
         overlays.geonix = final: prev: {
 
           # FIXME: remove overrides below
-          gdal = prev.gdal.overrideAttrs (prev: { version = "1000"; });
-          gdalMinimal = prev.gdal.overrideAttrs
-            (prev: {
-              useMinimalFeatures = true;
-              version = "10000";
-            });
+          # gdal = prev.gdal.overrideAttrs (prev: { version = "1000"; });
+          # gdalMinimal = prev.gdal.overrideAttrs
+          #   (prev: {
+          #     useMinimalFeatures = true;
+          #   });
 
           # Default Python version
           python3Packages = prev.python311Packages;
