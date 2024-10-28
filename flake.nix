@@ -1,5 +1,5 @@
 {
-  description = "Geospatial packages overlay";
+  description = "Geospatial packages repository and overlay";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
