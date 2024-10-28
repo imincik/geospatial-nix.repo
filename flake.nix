@@ -69,6 +69,12 @@
 
           # other
           nixGLIntel = inputs'.nixgl.packages.nixGLIntel;
+
+          # meta packages
+          all-packages = pkgs.symlinkJoin {
+            name = "all-packages";
+            paths = pkgs.lib.attrValues (pkgs.lib.filterAttrs (n: v: n != "all-packages") self'.packages);
+          };
         };
       };
 
