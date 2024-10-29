@@ -1,5 +1,5 @@
 {
-  description = "Geospatial packages repository and overlay";
+  description = "Rolling geospatial packages repository and Nix overlay";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
@@ -29,20 +29,28 @@
         _module.args.pkgs = import inputs.nixpkgs {
           inherit system;
           overlays = [ self.overlays.geonix ];
+          config.allowUnfree = true;
         };
 
         # Equivalent to  inputs'.nixpkgs.legacyPackages.hello;
-        packages = {
+        packages = rec {
+
           # libs
           gdal = pkgs.gdal;
           gdal-minimal = pkgs.gdalMinimal;
+          gdal-master = (pkgs.callPackage ./pkgs/gdal/master.nix { inherit gdal; }).master;
+
           geos = pkgs.geos;
           libgeotiff = pkgs.libgeotiff;
+          libLAS = pkgs.libLAS;
+          libosmium = pkgs.libosmium;
           librttopo = pkgs.librttopo;
           libspatialindex = pkgs.libspatialindex;
           libspatialite = pkgs.libspatialite;
+          libtiff = pkgs.libtiff;
           pdal = pkgs.pdal;
           proj = pkgs.proj;
+          shapelib = pkgs.shapelib;
 
           # Python packages
           python3-fiona = pkgs.python3Packages.fiona;
@@ -59,18 +67,44 @@
           # PostgreSQL packages
           postgresql-postgis = pkgs.postgresqlPackages.postgis;
 
-          # apps
-          qgis = pkgs.qgis;
+          # Tools
+          dcw-gmt = pkgs.dcw-gmt;
+          entwine = pkgs.entwine;
+          gmt= pkgs.gmt;
+          gshhg-gmt = pkgs.gshhg-gmt;
+          ili2c = pkgs.ili2c;
+          LAStools = pkgs.LAStools;
+          mapnik = pkgs.mapnik;
+          osm2pgsql = pkgs.osm2pgsql;
+          osmium-tool = pkgs.osmium-tool;
+          pmtiles = pkgs.pmtiles;
+          protozero = pkgs.protozero;
+          tippecanoe = pkgs.tippecanoe;
+ 
+          # Apps
           grass = pkgs.grass;
+          openjump = pkgs.openjump;
+          qgis = pkgs.qgis;
+          saga = pkgs.saga;
+          spatialite-gui = pkgs.spatialite_gui;  # FIXME: rename in nixpkgs
 
-          # services
+          # Services
+          geoserver = pkgs.geoserver;
+          mapcache = pkgs.mapcache;
+          mapproxy = pkgs.mapserver;
+          mapserver = pkgs.mapserver;
+          mbtileserver = pkgs.mbtileserver;
           pg_featureserv = pkgs.pg_featureserv;
           pg_tileserv = pkgs.pg_tileserv;
+          tegola = pkgs.tegola;
+          tile38 = pkgs.tile38;
+          t-rex = pkgs.t-rex;
+          
 
-          # other
+          # Other
           nixGLIntel = inputs'.nixgl.packages.nixGLIntel;
 
-          # meta packages
+          # Meta packages
           all-packages = pkgs.symlinkJoin {
             name = "all-packages";
             paths = pkgs.lib.attrValues (pkgs.lib.filterAttrs (n: v: n != "all-packages") self'.packages);
