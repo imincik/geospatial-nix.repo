@@ -98,7 +98,7 @@
           pg_tileserv = pkgs.pg_tileserv;
           tegola = pkgs.tegola;
           tile38 = pkgs.tile38;
-          t-rex = pkgs.t-rex;
+          # t-rex = pkgs.t-rex;
           
 
           # Other
