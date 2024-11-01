@@ -1,6 +1,13 @@
 {
   description = "Rolling geospatial packages repository and Nix overlay";
 
+  nixConfig = {
+    extra-substituters = [ "https://geonix-rolling.cachix.org" ];
+    extra-trusted-public-keys = [ "geonix-rolling.cachix.org-1:27FqadR8Jqcwl+OY7+JvhRJoWixjMwX8xrwc6kIBnDo=" ];
+
+    bash-prompt = "\\[\\033[1m\\][geonix]\\[\\033\[m\\]\\040\\w >\\040";
+  };
+
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
 
@@ -100,7 +107,6 @@
           tile38 = pkgs.tile38;
           # t-rex = pkgs.t-rex;
           
-
           # Other
           nixGLIntel = inputs'.nixgl.packages.nixGLIntel;
 
