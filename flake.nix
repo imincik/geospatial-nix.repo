@@ -77,7 +77,7 @@
           # Tools
           dcw-gmt = pkgs.dcw-gmt;
           entwine = pkgs.entwine;
-          gmt= pkgs.gmt;
+          gmt = pkgs.gmt;
           gshhg-gmt = pkgs.gshhg-gmt;
           ili2c = pkgs.ili2c;
           LAStools = pkgs.LAStools;
@@ -87,13 +87,14 @@
           pmtiles = pkgs.pmtiles;
           protozero = pkgs.protozero;
           tippecanoe = pkgs.tippecanoe;
- 
+
           # Apps
           grass = pkgs.grass;
           openjump = pkgs.openjump;
           qgis = pkgs.qgis;
+          qgis-ltr = pkgs.qgis-ltr;
           saga = pkgs.saga;
-          spatialite-gui = pkgs.spatialite_gui;  # FIXME: rename in nixpkgs
+          spatialite-gui = pkgs.spatialite_gui; # FIXME: rename in nixpkgs
 
           # Services
           geoserver = pkgs.geoserver;
@@ -106,9 +107,9 @@
           tegola = pkgs.tegola;
           tile38 = pkgs.tile38;
           # t-rex = pkgs.t-rex;
-          
+
           # Other
-          nixGLIntel = inputs'.nixgl.packages.nixGLIntel;
+          nixGL = inputs'.nixgl.packages.nixGLIntel;
 
           # Meta packages
           all-packages = pkgs.symlinkJoin {
@@ -116,6 +117,11 @@
             paths = pkgs.lib.attrValues (pkgs.lib.filterAttrs (n: v: n != "all-packages") self'.packages);
           };
         };
+
+        # Shells
+        devShells = import ./shells.nix { inherit self' pkgs; };
+
+        checks = import ./checks.nix { inherit self' pkgs; nixpkgs = inputs.nixpkgs; };
       };
 
       flake = {
