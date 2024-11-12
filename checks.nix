@@ -15,6 +15,23 @@
   inherit (self'.packages.proj.tests) proj;
   inherit (self'.packages.grass.tests) grass;
 
+  # tests
+  test-custom-package =
+    let
+      package = pkgs.gdal.overrideAttrs {
+        version = "1000.0.0";
+        postPatch = ''
+          sed -i "s|Usage:|Usage (patched):|" apps/argparse/argparse.hpp
+        '';
+        doInstallCheck = false;
+      };
+
+    in
+    pkgs.runCommand "test-script" { inherit package; } ''
+      "$package"/bin/gdalinfo --help | grep "Usage (patched): gdalinfo"
+      touch $out
+    '';
+
   # nixos tests
   test-qgis = pkgs.nixosTest (import ./tests/nixos/qgis.nix {
     inherit nixpkgs pkgs;
