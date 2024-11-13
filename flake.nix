@@ -86,8 +86,7 @@
                 )
                 plugins;
 
-          in
-          rec {
+          in {
 
             # libs
             gdal = pkgs.gdal;
