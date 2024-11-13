@@ -42,6 +42,23 @@
         # Equivalent to  inputs'.nixpkgs.legacyPackages.hello;
         packages =
           let
+            # grass plugins
+            grass-plugins =
+              let
+                plugins = import ./pkgs/grass/plugins-list.nix;
+              in
+              pkgs.lib.mapAttrs'
+                (
+                  name: value: {
+                    name = "grass-plugin-${name}";
+                    value = pkgs.callPackage ./pkgs/grass/plugins.nix {
+                      name = name;
+                      plugin = value;
+                    };
+                  }
+                )
+                plugins;
+
             # qgis plugins
             qgis-plugins =
               let
@@ -150,6 +167,7 @@
               paths = pkgs.lib.attrValues (pkgs.lib.filterAttrs (n: v: n != "all-packages") self'.packages);
             };
           }
+          // grass-plugins
           // qgis-plugins
           // qgis-ltr-plugins;
 
