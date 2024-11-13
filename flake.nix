@@ -92,10 +92,7 @@
             # libs
             gdal = pkgs.gdal;
             gdal-minimal = pkgs.gdalMinimal;
-            # FIXME: failing tests:
-            # * test_ogr_parquet_write_edge_cases
-            # * test_ogr_parquet_arrow_stream_empty_file
-            # gdal-master = (pkgs.callPackage ./pkgs/gdal/master.nix { }).master;
+            gdal-master = (pkgs.callPackage ./pkgs/gdal/master.nix { }).master;
 
             geos = pkgs.geos;
             libgeotiff = pkgs.libgeotiff;
