@@ -14,11 +14,13 @@
 , mpfr
 , pkg-config
 , postgresql
-, python3
+, python311Packages
 }:
 
 let
   srcRevision = import ./plugins-rev.nix;
+  pyPackages = python311Packages;
+
 in
 stdenv.mkDerivation {
   pname = "grass-plugin-${name}";
@@ -43,12 +45,12 @@ stdenv.mkDerivation {
     find . -name '*.pyc' -type f -delete
   '';
 
-  nativeBuildInputs = with python3.pkgs; [
+  nativeBuildInputs = with pyPackages; [
     pkg-config
 
     grass
     postgresql  # for libpq-fe.h
-    python3
+    python
 
     # python
     gdal
@@ -58,7 +60,7 @@ stdenv.mkDerivation {
   ];
 
   # extra plugin dependencies (both Python and non-python)
-  propagatedBuildInputs = with python3.pkgs; [ ]
+  propagatedBuildInputs = with pyPackages; [ ]
     # python
     ++ lib.optionals (name == "m-cdo-download") [ requests ]
     ++ lib.optionals (name == "m-tnm-download") [ requests ]
