@@ -147,19 +147,33 @@
         # those are more easily expressed in perSystem.
         overlays.geonix =
 
-          let
-            pkgs = inputs.nixpkgs.legacyPackages.x86_64-linux;
+          final: prev:
+          {
+            # FIXME: remove overrides below
+            # gdal = prev.gdal.overrideAttrs (prev: { version = "1000"; });
+            # gdalMinimal = prev.gdal.overrideAttrs
+            #   (prev: {
+            #     useMinimalFeatures = true;
+            #   });
+
+            # Default Python version
+            python3Packages = prev.python311Packages;
+            python3 = prev.python311;
+
+            # Default PostgreSQL version
+            postgresqlPackages = prev.postgresql15Packages;
+            postgresql = prev.postgresql_15;
 
             # grass plugins
             grassPlugins =
               let
                 plugins = import ./pkgs/grass/plugins-list.nix;
               in
-              pkgs.lib.mapAttrs'
+              final.lib.mapAttrs'
                 (
                   name: value: {
                     name = name;
-                    value = pkgs.callPackage ./pkgs/grass/plugins.nix {
+                    value = final.callPackage ./pkgs/grass/plugins.nix {
                       name = name;
                       plugin = value;
                     };
@@ -172,11 +186,11 @@
               let
                 plugins = import ./pkgs/qgis/qgis-plugins-list.nix;
               in
-              pkgs.lib.mapAttrs'
+              final.lib.mapAttrs'
                 (
                   name: value: {
                     name = name;
-                    value = pkgs.callPackage ./pkgs/qgis/plugins.nix { name = name; plugin = value; };
+                    value = final.callPackage ./pkgs/qgis/plugins.nix { name = name; plugin = value; };
                   }
                 )
                 plugins;
@@ -185,36 +199,15 @@
               let
                 plugins = import ./pkgs/qgis/qgis-ltr-plugins-list.nix;
               in
-              pkgs.lib.mapAttrs'
+              final.lib.mapAttrs'
                 (
                   name: value: {
                     name = name;
-                    value = pkgs.callPackage ./pkgs/qgis/plugins.nix { name = name; plugin = value; };
+                    value = final.callPackage ./pkgs/qgis/plugins.nix { name = name; plugin = value; };
                   }
                 )
                 plugins;
-
-          in
-          final: prev:
-            {
-              # FIXME: remove overrides below
-              # gdal = prev.gdal.overrideAttrs (prev: { version = "1000"; });
-              # gdalMinimal = prev.gdal.overrideAttrs
-              #   (prev: {
-              #     useMinimalFeatures = true;
-              #   });
-
-              # Default Python version
-              python3Packages = prev.python311Packages;
-              python3 = prev.python311;
-
-              # Default PostgreSQL version
-              postgresqlPackages = prev.postgresql15Packages;
-              postgresql = prev.postgresql_15;
-
-              # App plugins attrsets
-              inherit qgisPlugins qgisLTRPlugins grassPlugins;
-            };
+          };
       };
     };
 }
