@@ -11,7 +11,9 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: 
+        test:
+          - overlay
+        os:
           - ubuntu-22.04
           # - macos-11
 
@@ -32,6 +34,6 @@ jobs:
         name: geonix-rolling
         authToken: '${{ secrets.CACHIX_AUTH_TOKEN }}'
 
-    - name: Flake check
-      run: |
-        nix flake check --accept-flake-config
+    - name: Run test
+      run: bash ./test.sh
+      working-directory: tests/${{ matrix.test }}
