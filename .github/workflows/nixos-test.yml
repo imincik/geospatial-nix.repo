@@ -1,4 +1,4 @@
-name: Run other tests
+name: Run nixos tests
 
 on:
   workflow_call:
@@ -11,9 +11,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        test:
-          - overlay
-        os:
+        os: 
           - ubuntu-22.04
           # - macos-11
 
@@ -34,6 +32,6 @@ jobs:
         name: geonix-rolling
         authToken: '${{ secrets.CACHIX_AUTH_TOKEN }}'
 
-    - name: Run test
-      run: bash ./test.sh
-      working-directory: tests/${{ matrix.test }}
+    - name: Flake check
+      run: |
+        nix flake check --accept-flake-config
