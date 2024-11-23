@@ -146,17 +146,19 @@
         let
           lib = inputs.nixpkgs.lib;
 
-          recurseByDefault = attrs:
-            lib.mapAttrs
-              (
-                if lib.isDerivation attrs then
-                  attrs
-                else if lib.isAttrs attrs then
-                  lib.recurseIntoAttrs (recurseByDefault attrs)
+          recurseIntoOverlayAttrs = overlay:
+            final: prev:
+            let
+              recurse = lib.mapAttrs (
+                name: value:
+                if lib.isAttrs value && ! lib.isDerivation value && ! prev ? ${name} then
+                  lib.recurseIntoAttrs (recurse value)
                 else
-                  attrs
-              )
-              attrs;
+                  value
+              );
+            in
+            recurse (overlay final prev);
+
         in
 
         {
@@ -165,7 +167,7 @@
           # those are more easily expressed in perSystem.
           overlays.geonix =
 
-            final: prev: recurseByDefault
+            final: prev:
             {
               # FIXME: remove overrides below
               # gdal = prev.gdal.overrideAttrs (prev: { version = "1000"; });
@@ -231,8 +233,9 @@
                   plugins;
             };
 
-          aaa = "as";
-          legacyPackages.x86_64-linux = inputs.nixpkgs.legacyPackages.x86_64-linux.extend self.overlays.geonix;
+          legacyPackages.x86_64-linux = inputs.nixpkgs.legacyPackages.x86_64-linux.extend (
+            recurseIntoOverlayAttrs self.overlays.geonix
+          );
         };
     };
 }
