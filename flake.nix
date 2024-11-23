@@ -138,76 +138,101 @@
         # Shells
         devShells = import ./shells.nix { inherit self' pkgs; };
 
+        # Checks
         checks = import ./checks.nix { inherit self' pkgs; nixpkgs = inputs.nixpkgs; };
       };
 
-      flake = {
-        # The usual flake attributes can be defined here, including system-
-        # agnostic ones like nixosModule and system-enumerating ones, although
-        # those are more easily expressed in perSystem.
-        overlays.geonix =
+      flake =
+        let
+          lib = inputs.nixpkgs.lib;
 
-          final: prev:
-          {
-            # FIXME: remove overrides below
-            # gdal = prev.gdal.overrideAttrs (prev: { version = "1000"; });
-            # gdalMinimal = prev.gdal.overrideAttrs
-            #   (prev: {
-            #     useMinimalFeatures = true;
-            #   });
+          recurseByDefault = attrs:
+            lib.mapAttrs
+              (
+                if lib.isDerivation attrs then
+                  attrs
+                else if lib.isAttrs attrs then
+                  lib.recurseIntoAttrs (recurseByDefault attrs)
+                else
+                  attrs
+              )
+              attrs;
+        in
 
-            # Default Python version
-            python3Packages = prev.python311Packages;
-            python3 = prev.python311;
+        {
+          # The usual flake attributes can be defined here, including system-
+          # agnostic ones like nixosModule and system-enumerating ones, although
+          # those are more easily expressed in perSystem.
+          overlays.geonix =
 
-            # Default PostgreSQL version
-            postgresqlPackages = prev.postgresql15Packages;
-            postgresql = prev.postgresql_15;
+            final: prev: recurseByDefault
+            {
+              # FIXME: remove overrides below
+              # gdal = prev.gdal.overrideAttrs (prev: { version = "1000"; });
+              # gdalMinimal = prev.gdal.overrideAttrs
+              #   (prev: {
+              #     useMinimalFeatures = true;
+              #   });
 
-            # grass plugins
-            grassPlugins =
-              let
-                plugins = import ./pkgs/grass/plugins-list.nix;
-              in
-              final.lib.mapAttrs'
-                (
-                  name: value: {
-                    name = name;
-                    value = final.callPackage ./pkgs/grass/plugins.nix {
+              # myPP = final.hello.overrideAttrs (old: {
+              #   name = "my-hello";
+              # });
+
+              # Default Python version
+              python3Packages = prev.python311Packages;
+              python3 = prev.python311;
+
+              # Default PostgreSQL version
+              postgresqlPackages = prev.postgresql15Packages;
+              postgresql = prev.postgresql_15;
+
+              # grass plugins
+              grassPlugins =
+                let
+                  plugins = import ./pkgs/grass/plugins-list.nix;
+                in
+                final.lib.mapAttrs'
+                  (
+                    name: value: {
                       name = name;
-                      plugin = value;
-                    };
-                  }
-                )
-                plugins;
+                      value = final.callPackage ./pkgs/grass/plugins.nix {
+                        name = name;
+                        plugin = value;
+                      };
+                    }
+                  )
+                  plugins;
 
-            # qgis plugins
-            qgisPlugins =
-              let
-                plugins = import ./pkgs/qgis/qgis-plugins-list.nix;
-              in
-              final.lib.mapAttrs'
-                (
-                  name: value: {
-                    name = name;
-                    value = final.callPackage ./pkgs/qgis/plugins.nix { name = name; plugin = value; };
-                  }
-                )
-                plugins;
+              # qgis plugins
+              qgisPlugins =
+                let
+                  plugins = import ./pkgs/qgis/qgis-plugins-list.nix;
+                in
+                final.lib.mapAttrs'
+                  (
+                    name: value: {
+                      name = name;
+                      value = final.callPackage ./pkgs/qgis/plugins.nix { name = name; plugin = value; };
+                    }
+                  )
+                  plugins;
 
-            qgisLTRPlugins =
-              let
-                plugins = import ./pkgs/qgis/qgis-ltr-plugins-list.nix;
-              in
-              final.lib.mapAttrs'
-                (
-                  name: value: {
-                    name = name;
-                    value = final.callPackage ./pkgs/qgis/plugins.nix { name = name; plugin = value; };
-                  }
-                )
-                plugins;
-          };
-      };
+              qgisLTRPlugins =
+                let
+                  plugins = import ./pkgs/qgis/qgis-ltr-plugins-list.nix;
+                in
+                final.lib.mapAttrs'
+                  (
+                    name: value: {
+                      name = name;
+                      value = final.callPackage ./pkgs/qgis/plugins.nix { name = name; plugin = value; };
+                    }
+                  )
+                  plugins;
+            };
+
+          aaa = "as";
+          legacyPackages.x86_64-linux = inputs.nixpkgs.legacyPackages.x86_64-linux.extend self.overlays.geonix;
+        };
     };
 }
