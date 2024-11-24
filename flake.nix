@@ -21,25 +21,17 @@
 
   outputs = inputs@{ self, flake-parts, ... }:
     flake-parts.lib.mkFlake { inherit inputs; } {
-      imports = [
-        # To import a flake module
-        # 1. Add foo to inputs
-        # 2. Add foo as a parameter to the outputs function
-        # 3. Add here: foo.flakeModule
-
-      ];
+      imports = [ ];
       systems = [ "x86_64-linux" "aarch64-linux" "aarch64-darwin" "x86_64-darwin" ];
+
       perSystem = { config, self', inputs', pkgs, system, ... }: {
-        # Per-system attributes can be defined here. The self' and inputs'
-        # module parameters provide easy access to attributes of the same
-        # system.
         _module.args.pkgs = import inputs.nixpkgs {
           inherit system;
           overlays = [ self.overlays.geonix ];
           config.allowUnfree = true;
         };
 
-        # Equivalent to  inputs'.nixpkgs.legacyPackages.hello;
+        # Packages
         packages =
           {
             # Libs
@@ -161,13 +153,10 @@
 
         in
         {
-          # The usual flake attributes can be defined here, including system-
-          # agnostic ones like nixosModule and system-enumerating ones, although
-          # those are more easily expressed in perSystem.
           overlays.geonix =
             final: prev:
             {
-              # FIXME: remove overrides below
+              # Example package override
               # gdal = prev.gdal.overrideAttrs (prev: { version = "1000"; });
               # gdalMinimal = prev.gdal.overrideAttrs
               #   (prev: {
@@ -228,7 +217,7 @@
             };
 
 
-          # legacyPackages used for nix search
+          # legacyPackages output used for nix search
           legacyPackages.x86_64-linux = inputs.nixpkgs.legacyPackages.x86_64-linux.extend (
             recurseIntoOverlayAttrs self.overlays.geonix
           );
