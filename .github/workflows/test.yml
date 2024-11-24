@@ -13,6 +13,7 @@ jobs:
       matrix:
         test:
           - overlay
+          - search
         os:
           - ubuntu-22.04
           # - macos-11
