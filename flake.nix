@@ -164,12 +164,12 @@
               #   });
 
               # Default Python version
-              python3Packages = prev.python311Packages;
-              python3 = prev.python311;
+              # python3Packages = prev.python311Packages;
+              # python3 = prev.python311;
 
               # Default PostgreSQL version
-              postgresqlPackages = prev.postgresql15Packages;
-              postgresql = prev.postgresql_15;
+              # postgresqlPackages = prev.postgresql15Packages;
+              # postgresql = prev.postgresql_15;
 
               # grass plugins
               grassPlugins =
