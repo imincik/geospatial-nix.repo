@@ -101,7 +101,7 @@
             # t-rex = pkgs.t-rex;
 
             # Other
-            nixGL = inputs'.nixgl.packages.nixGLIntel;
+            nixGL = pkgs.nixGL;
 
             # Meta packages
             all-packages = pkgs.symlinkJoin {
@@ -214,6 +214,9 @@
                     }
                   )
                   plugins;
+
+              # nixGL
+              nixGL = inputs.nixgl.packages.${prev.stdenv.hostPlatform.system}.nixGLIntel;
             };
 
 
