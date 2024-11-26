@@ -37,7 +37,7 @@
             # Libs
             gdal = pkgs.gdal;
             gdal-minimal = pkgs.gdalMinimal;
-            gdal-master = (pkgs.callPackage ./pkgs/gdal/master.nix { }).master;
+            gdal-master = pkgs.gdal-master;
 
             geos = pkgs.geos;
             libgeotiff = pkgs.libgeotiff;
@@ -179,6 +179,10 @@
                   ./pkgs/grass/grass_config_dir.patch
                 ];
               });
+
+              # gdal
+              gdal-master = (final.pkgs.callPackage ./pkgs/gdal/master.nix { }).master;
+              gdal-minimal = final.pkgs.gdalMinimal;
 
               # grass plugins
               grassPlugins =
