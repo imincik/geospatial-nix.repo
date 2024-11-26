@@ -171,6 +171,15 @@
               # postgresqlPackages = prev.postgresql15Packages;
               # postgresql = prev.postgresql_15;
 
+              # grass
+              grass = prev.grass.overrideAttrs (prev: {
+                patches = [
+                  # Backport of https://github.com/OSGeo/grass/pull/3899
+                  # by @landam . Remove for GRASS 8.5.
+                  ./pkgs/grass/grass_config_dir.patch
+                ];
+              });
+
               # grass plugins
               grassPlugins =
                 let
