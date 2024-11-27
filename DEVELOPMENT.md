@@ -63,7 +63,7 @@ nix why-depends .#<PACKAGE> .#<DEPENDENCY>
 
 * Thursday (1 AM): Nixpkgs update PR (nix flake update)
 
-* Thursday - Friday: manual update of extra Geospatial NIX packages, build all packages
+* Thursday - Friday: manual update of extra geospatial packages, build and test all packages
 
 * Sunday (11 PM): automatic release of new version
 
