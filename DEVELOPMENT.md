@@ -61,9 +61,9 @@ nix why-depends .#<PACKAGE> .#<DEPENDENCY>
 
 ## Weekly development cycle
 
-* Wednesday (1 AM): automatic update from Nixpkgs unstable branch (nix flake update)
+* Thursday (1 AM): Nixpkgs update PR (nix flake update)
 
-* Thursday - Friday: update and development of extra Geospatial NIX packages
+* Thursday - Friday: manual update of extra Geospatial NIX packages, build all packages
 
 * Sunday (11 PM): automatic release of new version
 
@@ -75,7 +75,7 @@ nix why-depends .#<PACKAGE> .#<DEPENDENCY>
 gh pr checkout -f <PR-NUMBER>
 ```
 
-* Test build of PR
+* Test build of Nixpkg update PR
 ```bash
 nix build --dry-run .#all-packages
 ```
