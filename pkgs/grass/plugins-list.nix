@@ -56,7 +56,7 @@
 
             g-download-location = {
                 name = "g.download.location";
-                description = ''Download GRASS project (location) from the web Get GRASS project from an URL or file path'';
+                description = ''Download GRASS Location from the web Get GRASS Location from an URL or file path'';
             };
         
 
@@ -882,6 +882,12 @@
             };
         
 
+            r-maxent-setup = {
+                name = "r.maxent.setup";
+                description = ''Helper module to install Maxent to the addon directory'';
+            };
+        
+
             r-maxent-train = {
                 name = "r.maxent.train";
                 description = ''Create and train a Maxent model'';
@@ -1076,7 +1082,7 @@
 
             r-recode-attr = {
                 name = "r.recode.attr";
-                description = ''Recode raster using attribute table (csv file) as input.'';
+                description = ''Recode raster based on the values in one or more columns in a csv file.'';
             };
         
 
@@ -1620,12 +1626,6 @@
             };
         
 
-            v-convert-all = {
-                name = "v.convert.all";
-                description = ''Converts all older versions of GRASS vector maps in current mapset to current format.'';
-            };
-        
-
             v-db-pyupdate = {
                 name = "v.db.pyupdate";
                 description = ''Updates a column in a vector attribute table using Python code'';
@@ -1820,7 +1820,7 @@
 
             v-kriging = {
                 name = "v.kriging";
-                description = ''None'';
+                description = ''Interpolates 2D or 3D raster based on input values located on 2D or 3D point vector layer (method ordinary kriging extended to 3D).'';
             };
         
 
@@ -2054,7 +2054,7 @@
 
             v-what-spoly = {
                 name = "v.what.spoly";
-                description = ''Queries vector map with overlaping "spaghetti" polygons (e.g. Landsat footprints) at given location. Polygons must have not intersected boundaries.'';
+                description = ''Queries vector map with overlapping "spaghetti" polygons (e.g. Landsat footprints) at given location. Polygons must have not intersected boundaries.'';
             };
         
 

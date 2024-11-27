@@ -27,6 +27,7 @@ DISABLED_PLUGINS = [
     "wx.mwprecip",  # can't build
     "i.sentinel",  # missing pystac in geonix
     "t.stac",  # missing pystac in geonix
+    "v.convert.all",  # can't build
 ]
 
 def fix_plugin_name(name):
