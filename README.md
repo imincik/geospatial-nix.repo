@@ -1,7 +1,7 @@
 [![Build packages](https://github.com/imincik/geospatial-nix.rolling/actions/workflows/build-packages.yml/badge.svg)](https://github.com/imincik/geospatial-nix.rolling/actions/workflows/build-packages.yml)
 
-Weekly updated rolling geospatial packages repository and Nix overlay based on
-Nixpkgs unstable branch.
+Weekly updated geospatial packages repository and Nix overlay based on Nixpkgs
+unstable branch.
 
 Check out the user interface at
 [https://geospatial-nix.today/](https://geospatial-nix.today/) .
