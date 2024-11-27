@@ -64,9 +64,9 @@
         
 
             Lizmap = {
-                version = "4.4.4";
-                url = "https://plugins.qgis.org/plugins/lizmap/version/4.4.4/download/";
-                hash = "sha256-FDeMplcp3DO7TGJ/yyQ2j3y9BlO5Nrj68gWfVeTYWH8=";
+                version = "4.4.5";
+                url = "https://plugins.qgis.org/plugins/lizmap/version/4.4.5/download/";
+                hash = "sha256-Klet4kqcdBbpPOFkyjRklfrNfspEHFNObTpWx94v4i4=";
             };
         
 
@@ -113,9 +113,9 @@
         
 
             QGIS-Cloud-Plugin = {
-                version = "3.9.13";
-                url = "https://plugins.qgis.org/plugins/qgiscloud/version/3.9.13/download/";
-                hash = "sha256-YQTIP3yIBgaFX7GhD1190wuNMds6hw5r4FmSxLXioLg=";
+                version = "3.9.14";
+                url = "https://plugins.qgis.org/plugins/qgiscloud/version/3.9.14/download/";
+                hash = "sha256-lpVT52QqPBAvDg5SNRW+aEUqjMJ5Cul9k7A2srE16lw=";
             };
         
 
@@ -162,9 +162,9 @@
         
 
             QTiles = {
-                version = "1.7.2";
-                url = "https://plugins.qgis.org/plugins/qtiles/version/1.7.2/download/";
-                hash = "sha256-/eiKiBtQxHBc+9nSeTUpISK8I+bT0AThClSc0SwDkzY=";
+                version = "1.8.0";
+                url = "https://plugins.qgis.org/plugins/qtiles/version/1.8.0/download/";
+                hash = "sha256-UeVqYNqcE/Eo//fMFCTkz8lCIDyyZ8bQeGhFc6Y3aEI=";
             };
         
 
@@ -176,9 +176,9 @@
         
 
             Semi-Automatic-Classification-Plugin = {
-                version = "8.4.0";
-                url = "https://plugins.qgis.org/plugins/SemiAutomaticClassificationPlugin/version/8.4.0/download/";
-                hash = "sha256-pe/F5O9dMXPTP3306SRII3l17GV2rQpf+/Uu0XRaukU=";
+                version = "8.5.0";
+                url = "https://plugins.qgis.org/plugins/SemiAutomaticClassificationPlugin/version/8.5.0/download/";
+                hash = "sha256-yMgwv53iOK/yPCiMkc4nT6q9olZQqAY0jYwCO+LY6xg=";
             };
         
 
@@ -218,9 +218,9 @@
         
 
             Send2GE = {
-                version = "0.3.1";
-                url = "https://plugins.qgis.org/plugins/send2google_earth/version/0.3.1/download/";
-                hash = "sha256-iUbVn0WxdyBo9TAMQUvuF4Xtq02ierIakVKXHGs57Vg=";
+                version = "0.4.0";
+                url = "https://plugins.qgis.org/plugins/send2google_earth/version/0.4.0/download/";
+                hash = "sha256-4TB1YvLLvQ/tbpV4xnqx+o4jzH2ozoEuOJo5npK075c=";
             };
         
 
@@ -344,9 +344,9 @@
         
 
             QuickMapServices = {
-                version = "0.19.34";
-                url = "https://plugins.qgis.org/plugins/quick_map_services/version/0.19.34/download/";
-                hash = "sha256-zJfoXs6DkLfnBT1XkO4TpSrYkJrIbzg/6Sw8HKkqQFQ=";
+                version = "0.19.36";
+                url = "https://plugins.qgis.org/plugins/quick_map_services/version/0.19.36/download/";
+                hash = "sha256-EdedgdivQslqJYlDeWCdta4TXK0xA2TYoDgu6TY8ul8=";
             };
         
 
@@ -442,9 +442,9 @@
         
 
             OSMInfo = {
-                version = "0.9.1";
-                url = "https://plugins.qgis.org/plugins/osminfo/version/0.9.1/download/";
-                hash = "sha256-TCX+Gqz7RBO7IUmkvw8ldDzivrF/NSzeLvX/H/xc94c=";
+                version = "1.1.0";
+                url = "https://plugins.qgis.org/plugins/osminfo/version/1.1.0/download/";
+                hash = "sha256-trvm4+lUKXCbbGXFrbJxeJhACJnunZfWi7oosKXMCO8=";
             };
         
 
@@ -498,9 +498,9 @@
         
 
             QField-Sync = {
-                version = "v4.11.0";
-                url = "https://plugins.qgis.org/plugins/qfieldsync/version/v4.11.0/download/";
-                hash = "sha256-TBlnx0lvF0VN+GMJnFFD1XIJEHbrdDD/ikCMalSCKQQ=";
+                version = "v4.12.0";
+                url = "https://plugins.qgis.org/plugins/qfieldsync/version/v4.12.0/download/";
+                hash = "sha256-ftb2LWXm6xM8InPc5uJy/YdUkVv+Uo+FvLyM9sPXBSo=";
             };
         
 
@@ -568,9 +568,9 @@
         
 
             HCMGIS = {
-                version = "24.10.20";
-                url = "https://plugins.qgis.org/plugins/HCMGIS/version/24.10.20/download/";
-                hash = "sha256-r2JWln+f3mVYDJT3Pcn5NarFjCcsT+4+PEuu7X7t/T0=";
+                version = "24.11.20";
+                url = "https://plugins.qgis.org/plugins/HCMGIS/version/24.11.20/download/";
+                hash = "sha256-DK9Qa61DE3dWFyYD+T5gOjnieNTaloBB/iDmnaKjrzM=";
             };
         
 
@@ -610,9 +610,9 @@
         
 
             ORS-Tools = {
-                version = "1.9.0";
-                url = "https://plugins.qgis.org/plugins/ORStools/version/1.9.0/download/";
-                hash = "sha256-Ej1zMqVPi2aV4vJzhO6FGgPQCi3T/vXGyvpZ8Xt/0Tw=";
+                version = "1.10.0";
+                url = "https://plugins.qgis.org/plugins/ORStools/version/1.10.0/download/";
+                hash = "sha256-aOgzT7TD9995gdW4jQ9DQrf+lyqGCJJKyCMIsLs95d0=";
             };
         
 
@@ -645,9 +645,9 @@
         
 
             Wtyczka-GIS-Support = {
-                version = "2.4";
-                url = "https://plugins.qgis.org/plugins/gissupport_plugin/version/2.4/download/";
-                hash = "sha256-PX0RIJtpGAFR1ngbYW1JYyUdix4pOOduD/3/bVZKvG8=";
+                version = "2.5";
+                url = "https://plugins.qgis.org/plugins/gissupport_plugin/version/2.5/download/";
+                hash = "sha256-3y4C3/dr7Vdp1QzXEmSH5T8v2YoZ1vlpCQQHT69teUg=";
             };
         
 
@@ -673,9 +673,9 @@
         
 
             Pobieracz-danych-GUGiK = {
-                version = "1.2.5";
-                url = "https://plugins.qgis.org/plugins/pobieracz_danych_gugik/version/1.2.5/download/";
-                hash = "sha256-0vYKDKN6xeBJBhycz+FrNhTyqk36v2zhg22om1s+/W4=";
+                version = "1.2.7";
+                url = "https://plugins.qgis.org/plugins/pobieracz_danych_gugik/version/1.2.7/download/";
+                hash = "sha256-jNAMoHMozMqUqH6EC+TSV2AJTpM1bx/2eCPfn5/HAt4=";
             };
         
 
