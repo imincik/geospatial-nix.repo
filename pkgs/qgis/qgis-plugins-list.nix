@@ -161,6 +161,13 @@
             };
         
 
+            MOLUSCE = {
+                version = "4.2.0";
+                url = "https://plugins.qgis.org/plugins/molusce/version/4.2.0/download/";
+                hash = "sha256-iMuISJYNHEFMFYZKzkbCrtfjZXUeC+Fbj0nYjEHNMC8=";
+            };
+        
+
             QTiles = {
                 version = "1.8.0";
                 url = "https://plugins.qgis.org/plugins/qtiles/version/1.8.0/download/";
@@ -253,9 +260,9 @@
         
 
             Visibility-Analysis = {
-                version = "1.9";
-                url = "https://plugins.qgis.org/plugins/ViewshedAnalysis/version/1.9/download/";
-                hash = "sha256-ZVqG38AM/3Igo/zRCD8DKSG7G3XViwgNzWusYpHGq4o=";
+                version = "1.9.1";
+                url = "https://plugins.qgis.org/plugins/ViewshedAnalysis/version/1.9.1/download/";
+                hash = "sha256-xu2Jr1J2fq186cGwLvmgPXIhJkUR98wH4lOkFrcoJTU=";
             };
         
 
@@ -372,9 +379,9 @@
         
 
             DSG-Tools = {
-                version = "4.14.0";
-                url = "https://plugins.qgis.org/plugins/DsgTools/version/4.14.0/download/";
-                hash = "sha256-9ap2hjhXOnwWJv6ot+PuV74vBQNM1msRd/YLIqccuhw=";
+                version = "4.16.0";
+                url = "https://plugins.qgis.org/plugins/DsgTools/version/4.16.0/download/";
+                hash = "sha256-TI8Y6wUMBras6X2BrP/I7q6vWktJIYoXSsaSXC767Xo=";
             };
         
 
