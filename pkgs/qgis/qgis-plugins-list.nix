@@ -43,9 +43,9 @@
         
 
             Layers-menu-from-project = {
-                version = "2.1.0";
-                url = "https://plugins.qgis.org/plugins/menu_from_project/version/2.1.0/download/";
-                hash = "sha256-sz8bhV4h0VWwOWeqRDWw+5rXKWZbeKUQ/psnnbKZX3M=";
+                version = "2.2.0";
+                url = "https://plugins.qgis.org/plugins/menu_from_project/version/2.2.0/download/";
+                hash = "sha256-FodnTpXbNdFQGBBpgLdc+zM1qP98TkHwgjPiuKAvGT0=";
             };
         
 
@@ -64,9 +64,9 @@
         
 
             Lizmap = {
-                version = "4.4.5";
-                url = "https://plugins.qgis.org/plugins/lizmap/version/4.4.5/download/";
-                hash = "sha256-Klet4kqcdBbpPOFkyjRklfrNfspEHFNObTpWx94v4i4=";
+                version = "4.4.6";
+                url = "https://plugins.qgis.org/plugins/lizmap/version/4.4.6/download/";
+                hash = "sha256-L88/pUOoGHYy30P/8G40FqiE6ZB4a86kB+BQ8QF8EKM=";
             };
         
 
@@ -162,9 +162,9 @@
         
 
             MOLUSCE = {
-                version = "4.2.0";
-                url = "https://plugins.qgis.org/plugins/molusce/version/4.2.0/download/";
-                hash = "sha256-iMuISJYNHEFMFYZKzkbCrtfjZXUeC+Fbj0nYjEHNMC8=";
+                version = "4.2.1";
+                url = "https://plugins.qgis.org/plugins/molusce/version/4.2.1/download/";
+                hash = "sha256-UIVylaLKo8OFYjdb5Z/eSB96yiR+yQjEHF76Iq2Gv6E=";
             };
         
 
@@ -505,9 +505,9 @@
         
 
             QField-Sync = {
-                version = "v4.12.0";
-                url = "https://plugins.qgis.org/plugins/qfieldsync/version/v4.12.0/download/";
-                hash = "sha256-ftb2LWXm6xM8InPc5uJy/YdUkVv+Uo+FvLyM9sPXBSo=";
+                version = "v4.12.1";
+                url = "https://plugins.qgis.org/plugins/qfieldsync/version/v4.12.1/download/";
+                hash = "sha256-edJMcpJGTaHR6nvD2bp1X6UseNzpkMtRsW4VYsltyO0=";
             };
         
 
@@ -652,9 +652,9 @@
         
 
             Wtyczka-GIS-Support = {
-                version = "2.5";
-                url = "https://plugins.qgis.org/plugins/gissupport_plugin/version/2.5/download/";
-                hash = "sha256-3y4C3/dr7Vdp1QzXEmSH5T8v2YoZ1vlpCQQHT69teUg=";
+                version = "2.6";
+                url = "https://plugins.qgis.org/plugins/gissupport_plugin/version/2.6/download/";
+                hash = "sha256-EZb4lIyk1RwOtqjJ0q5cFEvWwGyYBEqg4WYBYfsmgYQ=";
             };
         
 
@@ -697,6 +697,13 @@
                 version = "0.0.3";
                 url = "https://plugins.qgis.org/plugins/google_maps_geocoder/version/0.0.3/download/";
                 hash = "sha256-0TVmHs+S56xdJRFU0G02LNU67PkRHkfjgDuXhn1FyEA=";
+            };
+        
+
+            Smart-Map = {
+                version = "1.4.2";
+                url = "https://plugins.qgis.org/plugins/Smart_Map/version/1.4.2/download/";
+                hash = "sha256-KZWQ4egvXF80fVYekwJogy5207uXK4srpIWGrtoPG4Q=";
             };
         
 
