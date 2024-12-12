@@ -56,7 +56,7 @@
 
             g-download-location = {
                 name = "g.download.location";
-                description = ''Download GRASS project (location) from the web Get GRASS project from an URL or file path'';
+                description = ''Download GRASS Location from the web Get GRASS Location from an URL or file path'';
             };
         
 
@@ -1452,6 +1452,12 @@
             };
         
 
+            r-watersheds = {
+                name = "r.watersheds";
+                description = ''Delineates a large number of watersheds using the Memory-Efficient Watershed Delineation (MESHED) OpenMP parallel algorithm by Cho (2025).'';
+            };
+        
+
             r-width-funct = {
                 name = "r.width.funct";
                 description = ''Calculates the Width Function of a watershed basin.'';
@@ -1820,7 +1826,7 @@
 
             v-kriging = {
                 name = "v.kriging";
-                description = ''None'';
+                description = ''Interpolates 2D or 3D raster based on input values located on 2D or 3D point vector layer (method ordinary kriging extended to 3D).'';
             };
         
 
