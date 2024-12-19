@@ -28,6 +28,7 @@ DISABLED_PLUGINS = [
     "i.sentinel",  # missing pystac in geonix
     "t.stac",  # missing pystac in geonix
     "v.convert.all",  # can't build
+    "r.green",  # can't build
 ]
 
 def fix_plugin_name(name):

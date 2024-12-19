@@ -714,12 +714,6 @@
             };
         
 
-            r-green = {
-                name = "r.green";
-                description = ''None'';
-            };
-        
-
             r-gsflow-hydrodem = {
                 name = "r.gsflow.hydrodem";
                 description = ''Creates hydrologically correct MODFLOW DEM from higher-res DEM'';
