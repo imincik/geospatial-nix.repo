@@ -56,7 +56,7 @@
 
             g-download-location = {
                 name = "g.download.location";
-                description = ''Download GRASS Location from the web Get GRASS Location from an URL or file path'';
+                description = ''Download GRASS project (location) from the web Get GRASS project from an URL or file path'';
             };
         
 
@@ -711,12 +711,6 @@
             r-gradient = {
                 name = "r.gradient";
                 description = ''Create a gradient map'';
-            };
-        
-
-            r-green = {
-                name = "r.green";
-                description = ''None'';
             };
         
 

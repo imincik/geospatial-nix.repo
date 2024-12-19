@@ -43,9 +43,9 @@
         
 
             Layers-menu-from-project = {
-                version = "2.2.0";
-                url = "https://plugins.qgis.org/plugins/menu_from_project/version/2.2.0/download/";
-                hash = "sha256-FodnTpXbNdFQGBBpgLdc+zM1qP98TkHwgjPiuKAvGT0=";
+                version = "2.2.1";
+                url = "https://plugins.qgis.org/plugins/menu_from_project/version/2.2.1/download/";
+                hash = "sha256-AjzC+x9yme8Y/hviLsizavWBX8L8I37snpZS2E9arT4=";
             };
         
 
@@ -393,9 +393,9 @@
         
 
             qgis2web = {
-                version = "3.23.0";
-                url = "https://plugins.qgis.org/plugins/qgis2web/version/3.23.0/download/";
-                hash = "sha256-XnOxkT1+AGJGalqBPGXsOETFpmMW5ZTtuZIN6nKedK0=";
+                version = "3.24.0";
+                url = "https://plugins.qgis.org/plugins/qgis2web/version/3.24.0/download/";
+                hash = "sha256-/JcRLJMeBoO62qqjdRo9b0NqSA7A6GpxW64ZjB8HM7Q=";
             };
         
 
@@ -456,9 +456,9 @@
         
 
             TUFLOW = {
-                version = "3.12.2";
-                url = "https://plugins.qgis.org/plugins/tuflow/version/3.12.2/download/";
-                hash = "sha256-qa6+F3Q+/TXdZcnfEQ1ETPDqaDhSAg9oCVJEEHqGMvA=";
+                version = "3.13";
+                url = "https://plugins.qgis.org/plugins/tuflow/version/3.13/download/";
+                hash = "sha256-Ja6NL9QqWsCbuHsodCFg6R/J06R538unseCOatwaSN0=";
             };
         
 
