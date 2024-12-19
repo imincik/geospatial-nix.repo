@@ -59,6 +59,7 @@ nix path-info -rsSh .#<PACKAGE> | sort -nk3
 nix why-depends .#<PACKAGE> .#<DEPENDENCY>
 ```
 
+
 ## Weekly development cycle
 
 * Thursday (1 AM): Nixpkgs update PR (nix flake update)
@@ -122,3 +123,11 @@ git push
 ```
 
 * Merge `weekly-update` PR (Friday, Saturday)
+
+
+## URLs
+
+* Nixpkgs PRs [tracking](https://nixpkgs-tracker.ocfox.me/)
+
+* Nixpkgs channel [status](https://status.nixos.org/)
+
