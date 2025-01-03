@@ -242,6 +242,24 @@
                   '';
                 }
               );
+
+              # osmium-tool
+              # https://github.com/NixOS/nixpkgs/pull/370549
+              osmium-tool = prev.osmium-tool.overrideAttrs (
+                old: {
+                  patches = [
+                    # https://github.com/osmcode/osmium-tool/issues/276
+                    (prev.fetchpatch {
+                      url = "https://github.com/Tencent/rapidjson/commit/3b2441b87f99ab65f37b141a7b548ebadb607b96.patch";
+                      hash = "sha256-Edmq+hdJQFQ4hT3Oz1cv5gX95qQxPLD4aY8QMTonDe8=";
+                    })
+                    (prev.fetchpatch {
+                      url = "https://github.com/Tencent/rapidjson/commit/862c39be371278a45a88d4d1d75164be57bb7e2d.patch";
+                      hash = "sha256-V5zbq/THUY75p1RdEPKJK2NVnxbZs07MMwJBAH7nAMg=";
+                    })
+                  ];
+                }
+              );
             };
 
 
