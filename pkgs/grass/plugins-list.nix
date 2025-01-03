@@ -1568,7 +1568,7 @@
 
             v-boxplot = {
                 name = "v.boxplot";
-                description = ''Draws the boxplot of values in a vector attribute column'';
+                description = ''Draws a boxplot of values from a specified attribute column in a vector dataset, with an optional grouping based on categories in another column.'';
             };
         
 
@@ -1820,7 +1820,7 @@
 
             v-kriging = {
                 name = "v.kriging";
-                description = ''Interpolates 2D or 3D raster based on input values located on 2D or 3D point vector layer (method ordinary kriging extended to 3D).'';
+                description = ''None'';
             };
         
 
