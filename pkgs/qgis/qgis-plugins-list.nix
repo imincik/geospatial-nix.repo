@@ -442,9 +442,9 @@
         
 
             Online-Routing-Mapper = {
-                version = "1.0";
-                url = "https://plugins.qgis.org/plugins/OnlineRoutingMapper/version/1.0/download/";
-                hash = "sha256-jW53qKPeHjqk6V8Am0o/ddCjAzhc1jSo+Wm0NgXbG08=";
+                version = "1.1";
+                url = "https://plugins.qgis.org/plugins/OnlineRoutingMapper/version/1.1/download/";
+                hash = "sha256-TSqbJNSp++/f4g2Om7WcKmiVVASqPMzRWR9yWsp7hjU=";
             };
         
 
@@ -568,9 +568,9 @@
         
 
             AcATaMa = {
-                version = "24.10";
-                url = "https://plugins.qgis.org/plugins/AcATaMa/version/24.10/download/";
-                hash = "sha256-Bap3XBKQAfr727GdYHEp14pkqjXmLGIOyPtqtevWvaA=";
+                version = "24.12a";
+                url = "https://plugins.qgis.org/plugins/AcATaMa/version/24.12a/download/";
+                hash = "sha256-zMA9bPRrfDwU5bcH8X8ooLjSp+HhbFl8TCUw5aka3qI=";
             };
         
 
@@ -658,6 +658,13 @@
             };
         
 
+            Sentinel-2-Download = {
+                version = "3.5.7";
+                url = "https://plugins.qgis.org/plugins/sentinel2_download/version/3.5.7/download/";
+                hash = "sha256-Avc8BjJ4FiEivxqbtyIU6iuI52y1WniHxayMpG6ysZY=";
+            };
+        
+
             Google-Earth-Engine-Data-Catalog = {
                 version = "0.5.0";
                 url = "https://plugins.qgis.org/plugins/qgis_gee_data_catalog/version/0.5.0/download/";
@@ -708,16 +715,16 @@
         
 
             LF-Tools = {
-                version = "2.1.0";
-                url = "https://plugins.qgis.org/plugins/lftools/version/2.1.0/download/";
-                hash = "sha256-XobqbQKAuyAc75695Dnhr59Eyg7fU/lRq4jlqf25bp8=";
+                version = "2.1.1";
+                url = "https://plugins.qgis.org/plugins/lftools/version/2.1.1/download/";
+                hash = "sha256-Srh1TWPuQ8t+SQBWqWbMwUw1MHmS+Chvi4qwtNzC2yg=";
             };
         
 
             Mapflow = {
-                version = "2.6.3";
-                url = "https://plugins.qgis.org/plugins/mapflow/version/2.6.3/download/";
-                hash = "sha256-x9Fi7gmDXxajE+2EyrRcUYPfNx8+fST2BxxUYAWVZwE=";
+                version = "3.0.1";
+                url = "https://plugins.qgis.org/plugins/mapflow/version/3.0.1/download/";
+                hash = "sha256-jOrYVLrRS6SjMZkSDF3ZpDc+YKCmbJhRMXHQbmMfvkY=";
             };
         
 
