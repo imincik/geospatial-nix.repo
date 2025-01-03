@@ -29,6 +29,9 @@ DISABLED_PLUGINS = [
     "t.stac",  # missing pystac in geonix
     "v.convert.all",  # can't build
     "r.green",  # can't build
+    "i.evapo.zk",  # can't build with gcc14
+    "i.gravity",  # can't build with gcc14
+    "i.lmf",  # can't build with gcc14
 ]
 
 def fix_plugin_name(name):

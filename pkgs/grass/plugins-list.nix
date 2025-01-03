@@ -162,12 +162,6 @@
             };
         
 
-            i-evapo-zk = {
-                name = "i.evapo.zk";
-                description = ''Computes global evapotranspiration calculation after Zhang, Kimball, Nemani and Running formulation, 2010.'';
-            };
-        
-
             i-feotio2 = {
                 name = "i.feotio2";
                 description = ''Calculates the FeO or TiO2 contents from the Clementine project Moon data.'';
@@ -183,12 +177,6 @@
             i-gcp = {
                 name = "i.gcp";
                 description = ''Manages Ground Control Points (GCPs) non-interactively.'';
-            };
-        
-
-            i-gravity = {
-                name = "i.gravity";
-                description = ''Bouguer gravity anomaly computation (full slab).'';
             };
         
 
@@ -219,12 +207,6 @@
             i-landsat8-swlst = {
                 name = "i.landsat8.swlst";
                 description = ''Practical split-window algorithm estimating Land Surface Temperature from Landsat 8 OLI/TIRS imagery (Du, Chen; Ren, Huazhong; Qin, Qiming; Meng, Jinjie; Zhao, Shaohua. 2015)'';
-            };
-        
-
-            i-lmf = {
-                name = "i.lmf";
-                description = ''Performs Temporal Local Maximum Fitting of vegetation indices, works also for surface reflectance data.'';
             };
         
 
@@ -1568,7 +1550,7 @@
 
             v-boxplot = {
                 name = "v.boxplot";
-                description = ''Draws the boxplot of values in a vector attribute column'';
+                description = ''Draws a boxplot of values from a specified attribute column in a vector dataset, with an optional grouping based on categories in another column.'';
             };
         
 
@@ -1820,7 +1802,7 @@
 
             v-kriging = {
                 name = "v.kriging";
-                description = ''Interpolates 2D or 3D raster based on input values located on 2D or 3D point vector layer (method ordinary kriging extended to 3D).'';
+                description = ''None'';
             };
         
 
