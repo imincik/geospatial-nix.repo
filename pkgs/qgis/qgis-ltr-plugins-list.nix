@@ -309,9 +309,9 @@
         
 
             QuickOSM = {
-                version = "2.2.3";
-                url = "https://plugins.qgis.org/plugins/QuickOSM/version/2.2.3/download/";
-                hash = "sha256-a/eM2PLBmk7fqbTeBfVkP4NY06zb31MnYh4tik2GQFk=";
+                version = "2.3.0";
+                url = "https://plugins.qgis.org/plugins/QuickOSM/version/2.3.0/download/";
+                hash = "sha256-HWazXcMkgiAQKDi3pNuBzVXds9eNwEH6hUvk5fmW/xE=";
             };
         
 
@@ -498,9 +498,9 @@
         
 
             QGIS-Resource-Sharing = {
-                version = "1.1.0";
-                url = "https://plugins.qgis.org/plugins/qgis_resource_sharing/version/1.1.0/download/";
-                hash = "sha256-rktu7PyFa8cycyMwOZhoPx0UD66iH35ppnSoZJt6W9M=";
+                version = "1.2.0";
+                url = "https://plugins.qgis.org/plugins/qgis_resource_sharing/version/1.2.0/download/";
+                hash = "sha256-sNS66fdQd+iZsKjAVUWOLwcYr2yzGe4yMb5jKzeeqcQ=";
             };
         
 
@@ -575,9 +575,9 @@
         
 
             HCMGIS = {
-                version = "24.11.20";
-                url = "https://plugins.qgis.org/plugins/HCMGIS/version/24.11.20/download/";
-                hash = "sha256-DK9Qa61DE3dWFyYD+T5gOjnieNTaloBB/iDmnaKjrzM=";
+                version = "25.1.9";
+                url = "https://plugins.qgis.org/plugins/HCMGIS/version/25.1.9/download/";
+                hash = "sha256-xZ3ySs0br4F3pys0ofJjjbMzrfr5MfiIRQEFUpyuPFk=";
             };
         
 

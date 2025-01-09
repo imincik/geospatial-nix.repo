@@ -232,17 +232,6 @@
               nixGL = inputs.nixgl.packages.${prev.stdenv.hostPlatform.system}.nixGLIntel;
 
               # Custom fixes
-              # libLAS
-              # https://github.com/NixOS/nixpkgs/pull/369334
-              libLAS = prev.libLAS.overrideAttrs (
-                old: {
-                  postPatch = ''
-                    substituteInPlace CMakeLists.txt \
-                      --replace-fail 'set(CMAKE_CXX_FLAGS "''${CMAKE_CXX_FLAGS} -std=c++98 -ansi")' '#'
-                  '';
-                }
-              );
-
               # osmium-tool
               # https://github.com/NixOS/nixpkgs/pull/370549
               osmium-tool = prev.osmium-tool.overrideAttrs (
