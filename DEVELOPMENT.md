@@ -114,6 +114,7 @@ git commit -m "grass-plugins: weekly update"
 
 * Build, test and upload all packages to binary chache
 ```bash
+source ./env.sh  # file not present in git, containing cachix token
 utils/nix-build-all.sh
 ```
 
