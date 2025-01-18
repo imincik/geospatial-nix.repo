@@ -43,9 +43,9 @@
         
 
             Layers-menu-from-project = {
-                version = "2.2.1";
-                url = "https://plugins.qgis.org/plugins/menu_from_project/version/2.2.1/download/";
-                hash = "sha256-AjzC+x9yme8Y/hviLsizavWBX8L8I37snpZS2E9arT4=";
+                version = "2.3.0";
+                url = "https://plugins.qgis.org/plugins/menu_from_project/version/2.3.0/download/";
+                hash = "sha256-sC+pJCE8xyInS5lQs1aNKMJkLh68ChjfOM4OO7csvPo=";
             };
         
 
@@ -309,9 +309,9 @@
         
 
             QuickOSM = {
-                version = "2.3.0";
-                url = "https://plugins.qgis.org/plugins/QuickOSM/version/2.3.0/download/";
-                hash = "sha256-HWazXcMkgiAQKDi3pNuBzVXds9eNwEH6hUvk5fmW/xE=";
+                version = "2.3.2";
+                url = "https://plugins.qgis.org/plugins/QuickOSM/version/2.3.2/download/";
+                hash = "sha256-IO+DsmuQc0XcXEMBUvgQiUZgC8WWSffdyx88dodfrUk=";
             };
         
 
@@ -351,9 +351,9 @@
         
 
             QuickMapServices = {
-                version = "0.19.36";
-                url = "https://plugins.qgis.org/plugins/quick_map_services/version/0.19.36/download/";
-                hash = "sha256-EdedgdivQslqJYlDeWCdta4TXK0xA2TYoDgu6TY8ul8=";
+                version = "0.19.37";
+                url = "https://plugins.qgis.org/plugins/quick_map_services/version/0.19.37/download/";
+                hash = "sha256-4OhbwgdydYlugUHFKBAbKqpLCjPw1lFXrGdQqTZkTOU=";
             };
         
 
@@ -561,16 +561,16 @@
         
 
             ImportPhotos = {
-                version = "3.0.6";
-                url = "https://plugins.qgis.org/plugins/ImportPhotos/version/3.0.6/download/";
-                hash = "sha256-UcwKTqhzDv2fSJbcUl+4wfhLYbV7JiOfoBkcSPaYTJI=";
+                version = "3.0.7";
+                url = "https://plugins.qgis.org/plugins/ImportPhotos/version/3.0.7/download/";
+                hash = "sha256-OQIDjwJJXwm2HlGOCkD4+qVWj/l/gunsZJ3VMGEqtCg=";
             };
         
 
             AcATaMa = {
-                version = "24.12a";
-                url = "https://plugins.qgis.org/plugins/AcATaMa/version/24.12a/download/";
-                hash = "sha256-zMA9bPRrfDwU5bcH8X8ooLjSp+HhbFl8TCUw5aka3qI=";
+                version = "24.12b";
+                url = "https://plugins.qgis.org/plugins/AcATaMa/version/24.12b/download/";
+                hash = "sha256-Cqdtaad90dZzRT0dV4doXJLAXPlMweXcZ/ROrkSDo9k=";
             };
         
 
@@ -673,9 +673,9 @@
         
 
             MapTiler = {
-                version = "3.3.2";
-                url = "https://plugins.qgis.org/plugins/qgis-maptiler-plugin/version/3.3.2/download/";
-                hash = "sha256-d1drAa64c9JME3Lx6gS4FCjAwEFpm9fOB9bH52QoRqY=";
+                version = "3.4.0";
+                url = "https://plugins.qgis.org/plugins/qgis-maptiler-plugin/version/3.4.0/download/";
+                hash = "sha256-dp7xxIvhzkCMH6JsQoGjDhIsyKOwIij0oxlVsUKvCDA=";
             };
         
 
