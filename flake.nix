@@ -86,7 +86,7 @@
             qgis = pkgs.qgis;
             qgis-ltr = pkgs.qgis-ltr;
             saga = pkgs.saga;
-            spatialite-gui = pkgs.spatialite_gui; # FIXME: rename in nixpkgs
+            spatialite-gui = pkgs.spatialite-gui;
 
             # Services
             geoserver = pkgs.geoserver;
