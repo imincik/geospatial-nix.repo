@@ -118,6 +118,14 @@ source ./env.sh  # file not present in git, containing cachix token
 utils/nix-build-all.sh
 ```
 
+* Print the list of updated packages since last release
+```bash
+nvd diff \
+  $(nix build github:imincik/geospatial-nix.repo/latest#all-packages --print-out-paths) \
+  $(nix build .#all-packages --print-out-paths)
+```
+
+
 * Push changes to `weekly-update` PR
 ```bash
 git push
