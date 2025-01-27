@@ -52,19 +52,19 @@
             shapelib = pkgs.shapelib;
 
             # Python packages
-            python3-fiona = pkgs.python3Packages.fiona;
-            python3-gdal = pkgs.python3Packages.gdal;
-            python3-geopandas = pkgs.python3Packages.geopandas;
-            python3-owslib = pkgs.python3Packages.owslib;
-            python3-psycopg = pkgs.python3Packages.psycopg;
-            python3-pyogrio = pkgs.python3Packages.pyogrio;
-            python3-pyproj = pkgs.python3Packages.pyproj;
-            python3-pystac = pkgs.python3Packages.pystac;
-            python3-rasterio = pkgs.python3Packages.rasterio;
-            python3-shapely = pkgs.python3Packages.shapely;
+            python3-fiona = pkgs.python3.pkgs.fiona;
+            python3-gdal = pkgs.python3.pkgs.gdal;
+            python3-geopandas = pkgs.python3.pkgs.geopandas;
+            python3-owslib = pkgs.python3.pkgs.owslib;
+            python3-psycopg = pkgs.python3.pkgs.psycopg;
+            python3-pyogrio = pkgs.python3.pkgs.pyogrio;
+            python3-pyproj = pkgs.python3.pkgs.pyproj;
+            python3-pystac = pkgs.python3.pkgs.pystac;
+            python3-rasterio = pkgs.python3.pkgs.rasterio;
+            python3-shapely = pkgs.python3.pkgs.shapely;
 
             # PostgreSQL packages
-            postgresql-postgis = pkgs.postgresqlPackages.postgis;
+            postgresql-postgis = pkgs.postgresql.pkgs.postgis;
 
             # Tools
             dcw-gmt = pkgs.dcw-gmt;
