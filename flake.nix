@@ -156,13 +156,6 @@
           overlays.geonix =
             final: prev:
             {
-              # Example package override
-              # gdal = prev.gdal.overrideAttrs (prev: { version = "1000"; });
-              # gdalMinimal = prev.gdal.overrideAttrs
-              #   (prev: {
-              #     useMinimalFeatures = true;
-              #   });
-
               # Default Python version
               # python3Packages = prev.python311Packages;
               # python3 = prev.python311;
@@ -232,9 +225,23 @@
               nixGL = inputs.nixgl.packages.${prev.stdenv.hostPlatform.system}.nixGLIntel;
 
               # Geospatial-nix patches
+
+              # Example of package customization
               # 
-              # ...
+              # gdal = prev.gdal.overrideAttrs (old: {
+              #   version = "${old.version}-custom";
+              # });
+
+              # Example of Python package customization
               # 
+              # python3 = prev.python3.override {
+              #   packageOverrides = python-final: python-prev: {
+              #     branca = python-prev.branca.overrideAttrs (old: {
+              #         version = "${old.version}-custom";
+              #     });
+              #   };
+              # };
+
               # End of Geospatial-nix patches
             };
 
