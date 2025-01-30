@@ -81,35 +81,9 @@ gh pr checkout -f <PR-NUMBER>
 nix build --dry-run .#all-packages
 ```
 
-* Update gdal-master package
+* Update extra packages
 ```bash
-pushd pkgs/gdal
-./update-master.sh
-popd
-
-git add pkgs/gdal/master-rev.nix
-git commit -m "gdal-master: weekly update"
-```
-
-* Update QGIS plugins
-```bash
-pushd pkgs/qgis
-./update-plugins.sh
-popd
-
-git add pkgs/qgis/*-plugins-list.nix
-git commit -m "qgis-plugins: weekly update"
-```
-
-* Update GRASS plugins
-```bash
-pushd pkgs/grass
-./update-plugins.sh
-popd
-
-git add pkgs/grass/plugins-rev.nix
-git add pkgs/grass/plugins-list.nix
-git commit -m "grass-plugins: weekly update"
+utils/nix-build-all.sh
 ```
 
 * Build, test and upload all packages to binary chache

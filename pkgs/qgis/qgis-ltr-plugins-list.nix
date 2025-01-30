@@ -204,9 +204,9 @@
         
 
             Digitizing-Tools = {
-                version = "1.5.2";
-                url = "https://plugins.qgis.org/plugins/DigitizingTools/version/1.5.2/download/";
-                hash = "sha256-EuNno913q4VjsDcj22ddceRiFrMBw1sfosA8Mm0CNkg=";
+                version = "1.5.3";
+                url = "https://plugins.qgis.org/plugins/DigitizingTools/version/1.5.3/download/";
+                hash = "sha256-zllVoC6iRGTkHwqkrO3bifiMRIDyqYbEN3ZkYRM80IM=";
             };
         
 
@@ -344,9 +344,9 @@
         
 
             Networks = {
-                version = "2.7.23";
-                url = "https://plugins.qgis.org/plugins/networks/version/2.7.23/download/";
-                hash = "sha256-iCEDqgDvIO5mpvQSvk75CkENL8qeMDZAAHxms2gTHqA=";
+                version = "2.7.24";
+                url = "https://plugins.qgis.org/plugins/networks/version/2.7.24/download/";
+                hash = "sha256-gkZhMoJGSZujnI3LwD6E1wymHW8DbZ1nkFim+lL6Vfk=";
             };
         
 
@@ -589,9 +589,9 @@
         
 
             LAStools = {
-                version = "2.1.1";
-                url = "https://plugins.qgis.org/plugins/LAStools/version/2.1.1/download/";
-                hash = "sha256-ph+qOFT9/GgAnVVb2oDyExoNZhc3MMDu/ufZj9eVyDQ=";
+                version = "2.2.0";
+                url = "https://plugins.qgis.org/plugins/LAStools/version/2.2.0/download/";
+                hash = "sha256-/7knFauA/cX6+VyC0Q045mG3TfhVnTxZoQizZdjQ3h0=";
             };
         
 
@@ -673,9 +673,9 @@
         
 
             MapTiler = {
-                version = "3.4.0";
-                url = "https://plugins.qgis.org/plugins/qgis-maptiler-plugin/version/3.4.0/download/";
-                hash = "sha256-dp7xxIvhzkCMH6JsQoGjDhIsyKOwIij0oxlVsUKvCDA=";
+                version = "3.4.1";
+                url = "https://plugins.qgis.org/plugins/qgis-maptiler-plugin/version/3.4.1/download/";
+                hash = "sha256-K3GkjKRVKPKR7g1QB9G1QT1T9RIoQWMhaUcY5DpZ/qo=";
             };
         
 

@@ -242,6 +242,19 @@
                 ];
               });
 
+              # Disable some tests broken due to broken selenium release:
+              # ModuleNotFoundError: No module named 'selenium.webdriver.common.fedcm'
+              python3 = prev.python3.override {
+                packageOverrides = python-final: python-prev: {
+                  branca = python-prev.branca.overrideAttrs (old: {
+                    disabledTestPaths = [
+                      "tests/test_utilities.py"
+                      "tests/test_iframe.py"
+                    ];
+                  });
+                };
+              };
+
               # End of Geospatial-nix patches
             };
 
