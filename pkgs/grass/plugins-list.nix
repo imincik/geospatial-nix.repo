@@ -732,6 +732,12 @@
             };
         
 
+            r-hydrobasin = {
+                name = "r.hydrobasin";
+                description = ''Delineates a large number of watersheds using the Memory-Efficient Watershed Delineation (MESHED) OpenMP parallel algorithm by Cho (2025).'';
+            };
+        
+
             r-hydrodem = {
                 name = "r.hydrodem";
                 description = ''Hydrological conditioning, sink removal'';
@@ -1206,6 +1212,12 @@
             };
         
 
+            r-slopeunits = {
+                name = "r.slopeunits";
+                description = ''None'';
+            };
+        
+
             r-smooth-seg = {
                 name = "r.smooth.seg";
                 description = ''Generates a piece-wise smooth approximation of the input raster and a discontinuity map.'';
@@ -1425,12 +1437,6 @@
             r-wateroutlet-lessmem = {
                 name = "r.wateroutlet.lessmem";
                 description = ''Creates watershed basins from a drainage direction map.'';
-            };
-        
-
-            r-watersheds = {
-                name = "r.watersheds";
-                description = ''Delineates a large number of watersheds using the Memory-Efficient Watershed Delineation (MESHED) OpenMP parallel algorithm by Cho (2025).'';
             };
         
 
