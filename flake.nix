@@ -156,13 +156,11 @@
           overlays.geonix =
             final: prev:
             {
-              # Default Python version
-              # python3Packages = prev.python311Packages;
-              # python3 = prev.python311;
+              # Python packages
+              python3Packages = final.python3.pkgs;
 
-              # Default PostgreSQL version
-              # postgresqlPackages = prev.postgresql15Packages;
-              # postgresql = prev.postgresql_15;
+              # PostgreSQL packages
+              postgresqlPackages = final.postgresql.pkgs;
 
               # gdal
               gdal-master = (final.pkgs.callPackage ./pkgs/gdal/master.nix { }).master;
