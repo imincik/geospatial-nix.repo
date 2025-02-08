@@ -83,7 +83,7 @@ nix build --dry-run .#all-packages
 
 * Update extra packages
 ```bash
-utils/nix-build-all.sh
+utils/update-extra-pkgs.sh
 ```
 
 * Build, test and upload all packages to binary chache
