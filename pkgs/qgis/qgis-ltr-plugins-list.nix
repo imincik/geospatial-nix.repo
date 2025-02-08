@@ -287,6 +287,13 @@
             };
         
 
+            Vector-Bender = {
+                version = "0.2.1";
+                url = "https://plugins.qgis.org/plugins/VectorBender/version/0.2.1/download/";
+                hash = "sha256-9Ruvh83gGT+Ko//KE/m/z+t5eml2aBdnUQ0td4plBfU=";
+            };
+        
+
             autoSaver = {
                 version = "2.9";
                 url = "https://plugins.qgis.org/plugins/autoSaver/version/2.9/download/";
@@ -393,9 +400,9 @@
         
 
             qgis2web = {
-                version = "3.24.0";
-                url = "https://plugins.qgis.org/plugins/qgis2web/version/3.24.0/download/";
-                hash = "sha256-/JcRLJMeBoO62qqjdRo9b0NqSA7A6GpxW64ZjB8HM7Q=";
+                version = "3.25.0";
+                url = "https://plugins.qgis.org/plugins/qgis2web/version/3.25.0/download/";
+                hash = "sha256-7yI4P8l07Yt5F/n08RWi+am07hCuK7PAqj5rqf5NiEU=";
             };
         
 
@@ -449,9 +456,9 @@
         
 
             OSMInfo = {
-                version = "1.1.0";
-                url = "https://plugins.qgis.org/plugins/osminfo/version/1.1.0/download/";
-                hash = "sha256-trvm4+lUKXCbbGXFrbJxeJhACJnunZfWi7oosKXMCO8=";
+                version = "1.1.1";
+                url = "https://plugins.qgis.org/plugins/osminfo/version/1.1.1/download/";
+                hash = "sha256-9o2skpWHjqtFuRACDsK/ExuLD0zPwbaf8rbqIP8HtyI=";
             };
         
 
@@ -484,9 +491,9 @@
         
 
             Lat-Lon-Tools = {
-                version = "3.7.2";
-                url = "https://plugins.qgis.org/plugins/latlontools/version/3.7.2/download/";
-                hash = "sha256-4JCojPehcj7SnntQfmlGp+7RjIdoPuw5kxlDPnsrXIQ=";
+                version = "3.7.3";
+                url = "https://plugins.qgis.org/plugins/latlontools/version/3.7.3/download/";
+                hash = "sha256-w/o7mKWzOoBw+adkk/gbX5dj7i5RM9YkRJwjaTGtZ+0=";
             };
         
 
@@ -505,9 +512,9 @@
         
 
             QField-Sync = {
-                version = "v4.12.1";
-                url = "https://plugins.qgis.org/plugins/qfieldsync/version/v4.12.1/download/";
-                hash = "sha256-edJMcpJGTaHR6nvD2bp1X6UseNzpkMtRsW4VYsltyO0=";
+                version = "v4.12.2";
+                url = "https://plugins.qgis.org/plugins/qfieldsync/version/v4.12.2/download/";
+                hash = "sha256-9FBq8AavtWAP9nPfoPAslcpZy2kgEMQ68QLaLjG97b0=";
             };
         
 
@@ -582,9 +589,9 @@
         
 
             QNEAT3 = {
-                version = "1.0.5";
-                url = "https://plugins.qgis.org/plugins/QNEAT3/version/1.0.5/download/";
-                hash = "sha256-bzw94iwS6XEy3sCIzwyJT/Mo9hqHQHheyndPUvZdy0E=";
+                version = "1.0.6";
+                url = "https://plugins.qgis.org/plugins/QNEAT3/version/1.0.6/download/";
+                hash = "sha256-ekPpVY9JzBX6QYKoK+NLJbLwply20f2n+btAqPeJSBs=";
             };
         
 
@@ -715,9 +722,9 @@
         
 
             LF-Tools = {
-                version = "2.1.1";
-                url = "https://plugins.qgis.org/plugins/lftools/version/2.1.1/download/";
-                hash = "sha256-Srh1TWPuQ8t+SQBWqWbMwUw1MHmS+Chvi4qwtNzC2yg=";
+                version = "2.1.2";
+                url = "https://plugins.qgis.org/plugins/lftools/version/2.1.2/download/";
+                hash = "sha256-bWAQHBbTsP1BZnrEQATrVB5BjZ0sUfyHywzQJ2MVRN8=";
             };
         
 
