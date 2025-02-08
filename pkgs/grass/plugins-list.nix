@@ -638,7 +638,7 @@
 
             r-flowfill = {
                 name = "r.flowfill";
-                description = ''None'';
+                description = ''Moves water downhill into pools or the ocean/map edge'';
             };
         
 
