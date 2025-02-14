@@ -36,9 +36,9 @@
         
 
             TimeManager = {
-                version = "3.6";
-                url = "https://plugins.qgis.org/plugins/timemanager/version/3.6/download/";
-                hash = "sha256-F3I088U7ALx92Es0kpNeSrX9qW4CzFO2YYBj6UJwTYg=";
+                version = "3.7";
+                url = "https://plugins.qgis.org/plugins/timemanager/version/3.7/download/";
+                hash = "sha256-f/cn7y7JICEx+yBHHCU7+C8FsksnrtX7Iw5fLFAwTIM=";
             };
         
 
@@ -274,9 +274,9 @@
         
 
             Street-View = {
-                version = "3.2";
-                url = "https://plugins.qgis.org/plugins/StreetView/version/3.2/download/";
-                hash = "sha256-XA8kmz9tp7IkxswpMW6BmSw+mxIHjJJ31H/5uuOBVkw=";
+                version = "3.3";
+                url = "https://plugins.qgis.org/plugins/StreetView/version/3.3/download/";
+                hash = "sha256-Llbs7NPh4GFaRIi7ESKqTDDZOU9ICtqMwPgd9MwQLBY=";
             };
         
 
@@ -358,9 +358,9 @@
         
 
             QuickMapServices = {
-                version = "0.19.37";
-                url = "https://plugins.qgis.org/plugins/quick_map_services/version/0.19.37/download/";
-                hash = "sha256-4OhbwgdydYlugUHFKBAbKqpLCjPw1lFXrGdQqTZkTOU=";
+                version = "0.20.0";
+                url = "https://plugins.qgis.org/plugins/quick_map_services/version/0.20.0/download/";
+                hash = "sha256-NkkQJxn2V9Nv9x6U7H8ZsKgtKGOtw/gldsofsYSyIHk=";
             };
         
 
