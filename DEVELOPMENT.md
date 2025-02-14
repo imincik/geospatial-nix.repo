@@ -88,7 +88,7 @@ utils/update-extra-pkgs.sh
 
 * Build, test and upload all packages to binary chache
 ```bash
-source ./env.sh  # file not present in git, containing cachix token
+source ./env.sh  # file is not present in git, contains cachix token
 utils/nix-build-all.sh
 ```
 
