@@ -56,7 +56,7 @@
 
             g-download-location = {
                 name = "g.download.location";
-                description = ''Download GRASS Location from the web Get GRASS Location from an URL or file path'';
+                description = ''Download GRASS project (location) from the web Get GRASS project from an URL or file path'';
             };
         
 
@@ -255,6 +255,12 @@
             i-rotate = {
                 name = "i.rotate";
                 description = ''Rotates the image around the centre of the computational window'';
+            };
+        
+
+            i-sam2 = {
+                name = "i.sam2";
+                description = ''None'';
             };
         
 
