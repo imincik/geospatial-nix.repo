@@ -258,12 +258,6 @@
             };
         
 
-            i-sam2 = {
-                name = "i.sam2";
-                description = ''None'';
-            };
-        
-
             i-sar-speckle = {
                 name = "i.sar.speckle";
                 description = ''Remove speckle from SAR image'';
