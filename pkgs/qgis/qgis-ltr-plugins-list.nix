@@ -64,9 +64,9 @@
         
 
             Lizmap = {
-                version = "4.4.6";
-                url = "https://plugins.qgis.org/plugins/lizmap/version/4.4.6/download/";
-                hash = "sha256-L88/pUOoGHYy30P/8G40FqiE6ZB4a86kB+BQ8QF8EKM=";
+                version = "4.4.7";
+                url = "https://plugins.qgis.org/plugins/lizmap/version/4.4.7/download/";
+                hash = "sha256-c6va98tLz/2ETaBZ6v/lxuA7BaaRJWW5hYoQDsmvSRg=";
             };
         
 
@@ -113,9 +113,9 @@
         
 
             QGIS-Cloud-Plugin = {
-                version = "3.9.14";
-                url = "https://plugins.qgis.org/plugins/qgiscloud/version/3.9.14/download/";
-                hash = "sha256-lpVT52QqPBAvDg5SNRW+aEUqjMJ5Cul9k7A2srE16lw=";
+                version = "3.9.15";
+                url = "https://plugins.qgis.org/plugins/qgiscloud/version/3.9.15/download/";
+                hash = "sha256-ycp4MQ6Oz1UWGahPRFaC1j9pfcSSnfJRGtw2jSSCBgo=";
             };
         
 
@@ -239,9 +239,9 @@
         
 
             cadastre = {
-                version = "1.20.0";
-                url = "https://plugins.qgis.org/plugins/cadastre/version/1.20.0/download/";
-                hash = "sha256-enBLTBf9V5Q65yqW1eEVbNf6qIPe5ghsDJUHFTReyFU=";
+                version = "2.0.0";
+                url = "https://plugins.qgis.org/plugins/cadastre/version/2.0.0/download/";
+                hash = "sha256-c5NaelJ/XPBm9tLGZwFtDDaB2Rs44Zmdzc5vj1iInW8=";
             };
         
 
@@ -309,9 +309,9 @@
         
 
             Maps-Printer = {
-                version = "0.9";
-                url = "https://plugins.qgis.org/plugins/MapsPrinter/version/0.9/download/";
-                hash = "sha256-FZtWiMih3BXC4bGxHoXA0jQUPM+depiGPa/t+49n2oU=";
+                version = "1.0";
+                url = "https://plugins.qgis.org/plugins/MapsPrinter/version/1.0/download/";
+                hash = "sha256-uSgyPsMfmmeLj/Hx86hqvrok2H+ai0eQWjTszhE4SlE=";
             };
         
 
@@ -400,9 +400,9 @@
         
 
             qgis2web = {
-                version = "3.25.0";
-                url = "https://plugins.qgis.org/plugins/qgis2web/version/3.25.0/download/";
-                hash = "sha256-7yI4P8l07Yt5F/n08RWi+am07hCuK7PAqj5rqf5NiEU=";
+                version = "3.25.1";
+                url = "https://plugins.qgis.org/plugins/qgis2web/version/3.25.1/download/";
+                hash = "sha256-0KMZRNHjZkDR1UodnK/lwD/LwwHByPAZ+EYX6vjGtQs=";
             };
         
 
@@ -463,9 +463,9 @@
         
 
             TUFLOW = {
-                version = "3.13";
-                url = "https://plugins.qgis.org/plugins/tuflow/version/3.13/download/";
-                hash = "sha256-Ja6NL9QqWsCbuHsodCFg6R/J06R538unseCOatwaSN0=";
+                version = "3.14";
+                url = "https://plugins.qgis.org/plugins/tuflow/version/3.14/download/";
+                hash = "sha256-HxoNdYHgsQmvTe8qCoAGfw+o1fzAr7e0denm57GqAMU=";
             };
         
 
@@ -575,9 +575,9 @@
         
 
             AcATaMa = {
-                version = "24.12b";
-                url = "https://plugins.qgis.org/plugins/AcATaMa/version/24.12b/download/";
-                hash = "sha256-Cqdtaad90dZzRT0dV4doXJLAXPlMweXcZ/ROrkSDo9k=";
+                version = "24.12c";
+                url = "https://plugins.qgis.org/plugins/AcATaMa/version/24.12c/download/";
+                hash = "sha256-fpc5V5SgoRrhDBCzTBGbpLn4LK9vFfSw2FvC0fFW270=";
             };
         
 
