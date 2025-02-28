@@ -708,6 +708,12 @@
             };
         
 
+            r-hand = {
+                name = "r.hand";
+                description = ''Performs Height Above Nearest Drainage (HAND) analysis and flood inundation mapping with HAND method.'';
+            };
+        
+
             r-hants = {
                 name = "r.hants";
                 description = ''Approximates a periodic time series and creates approximated output.'';
