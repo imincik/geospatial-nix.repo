@@ -73,7 +73,7 @@
             Profile-tool = {
                 version = "4.2.6";
                 url = "https://plugins.qgis.org/plugins/profiletool/version/4.2.6/download/";
-                hash = "sha256-2RNhDjqnChwWYpfJUg1sows+YVCYuqKxVtvDxYFmwMw=";
+                hash = "sha256-RA+6OmMZu31WWX+b+xNjRibHlHO5FGJxaHHZf35woKc=";
             };
         
 
@@ -239,9 +239,9 @@
         
 
             cadastre = {
-                version = "2.0.0";
-                url = "https://plugins.qgis.org/plugins/cadastre/version/2.0.0/download/";
-                hash = "sha256-c5NaelJ/XPBm9tLGZwFtDDaB2Rs44Zmdzc5vj1iInW8=";
+                version = "2.0.1";
+                url = "https://plugins.qgis.org/plugins/cadastre/version/2.0.1/download/";
+                hash = "sha256-0WbHfSsrxT/x9B6Cfhc5yZ/+VxsIWHzzyONaekG1zGw=";
             };
         
 
@@ -330,9 +330,9 @@
         
 
             OpenQuake-Integrated-Risk-Modelling-Toolkit = {
-                version = "3.16.5";
-                url = "https://plugins.qgis.org/plugins/svir/version/3.16.5/download/";
-                hash = "sha256-yVb0J2aIug4bwkDNQPFZT3WbHYBdG8bMsI1l6X1XvW4=";
+                version = "3.23.0";
+                url = "https://plugins.qgis.org/plugins/svir/version/3.23.0/download/";
+                hash = "sha256-/V2mLTBYLn38Q7ctiHAp/5g1mlz/E0Vj9LozbvQa8JA=";
             };
         
 
@@ -539,6 +539,13 @@
             };
         
 
+            Spanish-Inspire-Catastral-Downloader = {
+                version = "2.1";
+                url = "https://plugins.qgis.org/plugins/Spanish_Inspire_Catastral_Downloader/version/2.1/download/";
+                hash = "sha256-rQLeeeIFnjQqgznS4uAzWhvAaMAxLKNghFWywqmNfog=";
+            };
+        
+
             Search-Layers = {
                 version = "3.1.1";
                 url = "https://plugins.qgis.org/plugins/searchlayers/version/3.1.1/download/";
@@ -561,9 +568,9 @@
         
 
             Calculate-Geometry = {
-                version = "0.6.9";
-                url = "https://plugins.qgis.org/plugins/CalculateGeometry/version/0.6.9/download/";
-                hash = "sha256-82ylk9rnhzdC0MSsuTrb+wbz5fgFCP3+tsNDWoS+phY=";
+                version = "0.6.10";
+                url = "https://plugins.qgis.org/plugins/CalculateGeometry/version/0.6.10/download/";
+                hash = "sha256-TvoAbI/a1FXE+XMM+zXde94tWkzzMZ9RIMjrebDES8M=";
             };
         
 
