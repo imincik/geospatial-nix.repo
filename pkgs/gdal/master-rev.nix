@@ -1,4 +1,4 @@
 {
-  rev = "c7006db";
-  hash = "sha256-dYjNhfJnhZfc0AVKwL6MU0R3CK0nDkmxgxaPd6ELCv4=";
+  rev = "b047461";
+  hash = "sha256-iENDN/grshRu7+5ubbjPYuI0gN13p9ZWNolwGKNGrFM=";
 }
