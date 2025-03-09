@@ -155,9 +155,9 @@
         
 
             PDOK-services-plugin = {
-                version = "5.1.1";
-                url = "https://plugins.qgis.org/plugins/pdokservicesplugin/version/5.1.1/download/";
-                hash = "sha256-KqwqX5SQhgbSOrhtIeQcC7VhUfif7yGqCbpbit4YYeY=";
+                version = "5.1.2";
+                url = "https://plugins.qgis.org/plugins/pdokservicesplugin/version/5.1.2/download/";
+                hash = "sha256-27etOPCb2d/lF+uc2r5pH+bi5YwsTubjCKMvG2vBE30=";
             };
         
 
@@ -358,9 +358,9 @@
         
 
             QuickMapServices = {
-                version = "0.20.0";
-                url = "https://plugins.qgis.org/plugins/quick_map_services/version/0.20.0/download/";
-                hash = "sha256-NkkQJxn2V9Nv9x6U7H8ZsKgtKGOtw/gldsofsYSyIHk=";
+                version = "0.21.1";
+                url = "https://plugins.qgis.org/plugins/quick_map_services/version/0.21.1/download/";
+                hash = "sha256-iank5fevV5Vl0kBadchC5Udu4qc1naJrfgK6GVI0pUg=";
             };
         
 
@@ -512,9 +512,9 @@
         
 
             QField-Sync = {
-                version = "v4.12.2";
-                url = "https://plugins.qgis.org/plugins/qfieldsync/version/v4.12.2/download/";
-                hash = "sha256-9FBq8AavtWAP9nPfoPAslcpZy2kgEMQ68QLaLjG97b0=";
+                version = "v4.13.1";
+                url = "https://plugins.qgis.org/plugins/qfieldsync/version/v4.13.1/download/";
+                hash = "sha256-j4HV6q8fBQVW6/P9jAy7J9kJv8BzXfN6RGNlxUuqNwU=";
             };
         
 
@@ -736,9 +736,9 @@
         
 
             Mapflow = {
-                version = "3.0.1";
-                url = "https://plugins.qgis.org/plugins/mapflow/version/3.0.1/download/";
-                hash = "sha256-jOrYVLrRS6SjMZkSDF3ZpDc+YKCmbJhRMXHQbmMfvkY=";
+                version = "3.1.1";
+                url = "https://plugins.qgis.org/plugins/mapflow/version/3.1.1/download/";
+                hash = "sha256-OCgQYStG3otVnmjga+WRHSwywI0K3/e1UnYzYHGAIEg=";
             };
         
 
