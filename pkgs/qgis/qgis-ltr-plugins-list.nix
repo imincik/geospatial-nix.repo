@@ -134,9 +134,9 @@
         
 
             Contour-plugin = {
-                version = "2.0.14";
-                url = "https://plugins.qgis.org/plugins/contour/version/2.0.14/download/";
-                hash = "sha256-6ekGHiy+TP2kxBQGm3ddMgLPTL5iF2t26ZdA/W8WSrQ=";
+                version = "2.0.15";
+                url = "https://plugins.qgis.org/plugins/contour/version/2.0.15/download/";
+                hash = "sha256-807SO1kd1pvexaT9RwxLOrdruAuUSJ9dNKOjJ3k7kDE=";
             };
         
 
