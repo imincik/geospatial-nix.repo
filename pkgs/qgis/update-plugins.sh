@@ -1,5 +1,5 @@
 #!/usr/bin/env nix-shell
-#! nix-shell -i bash -p python3Packages.lxml
+#! nix-shell -i bash -p python3Packages.lxml -I nixpkgs=https://github.com/NixOS/nixpkgs/tarball/36fd87b
 
 # Update QGIS plugins.
 # Usage: update-plugins.sh

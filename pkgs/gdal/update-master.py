@@ -7,12 +7,12 @@ from subprocess import run
 if len(sys.argv) > 1:
     revision = sys.argv[1]
 else:
-    revision = "master"
+    revision = "refs/heads/master"
 
 
 def get_src_meta(revision):
     cmd = run(
-        ["nix-prefetch-github", "--json", "OSGeo", "gdal", "--rev", revision],
+        ["nix-prefetch-git", "https://github.com/OSGeo/gdal.git", "--rev", revision],
         capture_output=True,
         text=True,
     )
