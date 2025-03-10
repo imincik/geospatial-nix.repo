@@ -1,4 +1,4 @@
-name: Update flake inputs
+name: Update packages
 
 on:
   schedule:
@@ -22,9 +22,27 @@ jobs:
       - name: Install Nix
         uses: cachix/install-nix-action@V27
 
-      - name: Run nix flake update
-        run: >
+      - name: Update flake inputs
+        run: |
           nix flake update
+
+      - name: Update gdal-master package
+        run: |
+          pushd pkgs/gdal
+          ./update-master.sh
+          popd
+
+      - name: Update QGIS plugins
+        run: |
+          pushd pkgs/qgis
+          ./update-plugins.sh
+          popd
+
+      - name: Update GRASS plugins
+        run: |
+          pushd pkgs/grass
+          ./update-plugins.sh
+          popd
 
       - name: Generate branch name
         id: branch
@@ -33,13 +51,10 @@ jobs:
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v6
         with:
-          add-paths: |
-            flake.lock
           title: "pkgs: weekly update (${{ steps.branch.outputs.branch }})"
-          body: |
-            Weekly update of packages.
+          body: Weekly update of packages.
           branch: "${{ steps.branch.outputs.branch }}"
-          commit-message: "flake: weekly update of nix flake inputs"
+          commit-message: "pkgs: weekly update of packages"
           committer: GitHub <noreply@github.com>
           author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
           assignees: imincik

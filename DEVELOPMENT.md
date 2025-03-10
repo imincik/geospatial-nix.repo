@@ -81,11 +81,6 @@ gh pr checkout -f <PR-NUMBER>
 nix build --dry-run .#all-packages
 ```
 
-* Update extra packages
-```bash
-utils/update-extra-pkgs.sh
-```
-
 * Build, test and upload all packages to binary chache
 ```bash
 source ./env.sh  # file is not present in git, contains cachix token
