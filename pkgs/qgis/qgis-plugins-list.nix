@@ -134,9 +134,9 @@
         
 
             Contour-plugin = {
-                version = "2.0.14";
-                url = "https://plugins.qgis.org/plugins/contour/version/2.0.14/download/";
-                hash = "sha256-6ekGHiy+TP2kxBQGm3ddMgLPTL5iF2t26ZdA/W8WSrQ=";
+                version = "2.0.15";
+                url = "https://plugins.qgis.org/plugins/contour/version/2.0.15/download/";
+                hash = "sha256-807SO1kd1pvexaT9RwxLOrdruAuUSJ9dNKOjJ3k7kDE=";
             };
         
 
@@ -645,9 +645,9 @@
         
 
             Mergin-Maps = {
-                version = "2024.2.1";
-                url = "https://plugins.qgis.org/plugins/Mergin/version/2024.2.1/download/";
-                hash = "sha256-LDfCtepCcNjcbzKFQjxLryeMxFPkTNmo0z7wLEUu9ik=";
+                version = "2025.1";
+                url = "https://plugins.qgis.org/plugins/Mergin/version/2025.1/download/";
+                hash = "sha256-/BMR0GhpF9QtmmyA06xYoMQZt0V/+sVFGdDwP1+S/v4=";
             };
         
 
