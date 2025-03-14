@@ -240,14 +240,6 @@
                 ];
               });
 
-              # libiodbc
-              # https://github.com/NixOS/nixpkgs/pull/381767
-              libiodbc = prev.libiodbc.overrideAttrs (prev: {
-                configureFlags = [
-                  "--disable-libodbc"
-                ];
-              });
-
               # End of Geospatial-nix patches
             };
 
