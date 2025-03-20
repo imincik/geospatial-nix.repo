@@ -76,11 +76,6 @@ nix why-depends .#<PACKAGE> .#<DEPENDENCY>
 gh pr checkout -f <PR-NUMBER>
 ```
 
-* Test build of Nixpkg update PR
-```bash
-nix build --dry-run .#all-packages
-```
-
 * Build, test and upload all packages to binary chache
 ```bash
 source ./env.sh  # file is not present in git, contains cachix token
