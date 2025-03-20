@@ -43,9 +43,9 @@
         
 
             Layers-menu-from-project = {
-                version = "2.3.0";
-                url = "https://plugins.qgis.org/plugins/menu_from_project/version/2.3.0/download/";
-                hash = "sha256-sC+pJCE8xyInS5lQs1aNKMJkLh68ChjfOM4OO7csvPo=";
+                version = "2.4.1";
+                url = "https://plugins.qgis.org/plugins/menu_from_project/version/2.4.1/download/";
+                hash = "sha256-laHUNa2YuVsBFv6RvNUP1gUDRbvpFVtSnL9rItzEILs=";
             };
         
 
@@ -71,9 +71,9 @@
         
 
             Profile-tool = {
-                version = "4.3.1";
-                url = "https://plugins.qgis.org/plugins/profiletool/version/4.3.1/download/";
-                hash = "sha256-RA+6OmMZu31WWX+b+xNjRibHlHO5FGJxaHHZf35woKc=";
+                version = "4.3.2";
+                url = "https://plugins.qgis.org/plugins/profiletool/version/4.3.2/download/";
+                hash = "sha256-T8D9AaLGH/mOvUH0ZxRqhVQcUxMeognKwznQLd6lN34=";
             };
         
 
@@ -134,9 +134,9 @@
         
 
             Contour-plugin = {
-                version = "2.0.14";
-                url = "https://plugins.qgis.org/plugins/contour/version/2.0.14/download/";
-                hash = "sha256-6ekGHiy+TP2kxBQGm3ddMgLPTL5iF2t26ZdA/W8WSrQ=";
+                version = "2.0.15";
+                url = "https://plugins.qgis.org/plugins/contour/version/2.0.15/download/";
+                hash = "sha256-807SO1kd1pvexaT9RwxLOrdruAuUSJ9dNKOjJ3k7kDE=";
             };
         
 
@@ -351,9 +351,9 @@
         
 
             Networks = {
-                version = "2.7.24";
-                url = "https://plugins.qgis.org/plugins/networks/version/2.7.24/download/";
-                hash = "sha256-gkZhMoJGSZujnI3LwD6E1wymHW8DbZ1nkFim+lL6Vfk=";
+                version = "2.8.0";
+                url = "https://plugins.qgis.org/plugins/networks/version/2.8.0/download/";
+                hash = "sha256-Z10syGNbVBLTHvj779TPxpyNZ8fa5ThrnxNvavPTVeE=";
             };
         
 
@@ -645,9 +645,9 @@
         
 
             Mergin-Maps = {
-                version = "2024.2.1";
-                url = "https://plugins.qgis.org/plugins/Mergin/version/2024.2.1/download/";
-                hash = "sha256-LDfCtepCcNjcbzKFQjxLryeMxFPkTNmo0z7wLEUu9ik=";
+                version = "2025.1.1";
+                url = "https://plugins.qgis.org/plugins/Mergin/version/2025.1.1/download/";
+                hash = "sha256-PawhS0xueWrfLjNmx+kmS8cmG9/hQJ9WBQ4CEY+Ys9w=";
             };
         
 
@@ -666,9 +666,9 @@
         
 
             Wtyczka-GIS-Support = {
-                version = "2.6";
-                url = "https://plugins.qgis.org/plugins/gissupport_plugin/version/2.6/download/";
-                hash = "sha256-EZb4lIyk1RwOtqjJ0q5cFEvWwGyYBEqg4WYBYfsmgYQ=";
+                version = "2.7";
+                url = "https://plugins.qgis.org/plugins/gissupport_plugin/version/2.7/download/";
+                hash = "sha256-d2vvKUSe+Lkv103W/Jj+zIatFtSU3lTprfy9Ys+RMLo=";
             };
         
 
@@ -729,16 +729,16 @@
         
 
             LF-Tools = {
-                version = "2.1.2";
-                url = "https://plugins.qgis.org/plugins/lftools/version/2.1.2/download/";
-                hash = "sha256-bWAQHBbTsP1BZnrEQATrVB5BjZ0sUfyHywzQJ2MVRN8=";
+                version = "2.1.3";
+                url = "https://plugins.qgis.org/plugins/lftools/version/2.1.3/download/";
+                hash = "sha256-SN1Ps2HXuPngHYxPsY1DayqKWDxfQ+MvVr33WkKGUi8=";
             };
         
 
             Mapflow = {
-                version = "3.1.1";
-                url = "https://plugins.qgis.org/plugins/mapflow/version/3.1.1/download/";
-                hash = "sha256-OCgQYStG3otVnmjga+WRHSwywI0K3/e1UnYzYHGAIEg=";
+                version = "3.1.2";
+                url = "https://plugins.qgis.org/plugins/mapflow/version/3.1.2/download/";
+                hash = "sha256-IbNukVN7DTrVcYQcQYdhFZ0jONh9NGppqzWXaV2pq9M=";
             };
         
 
