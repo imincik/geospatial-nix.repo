@@ -358,9 +358,9 @@
         
 
             QuickMapServices = {
-                version = "0.21.1";
-                url = "https://plugins.qgis.org/plugins/quick_map_services/version/0.21.1/download/";
-                hash = "sha256-iank5fevV5Vl0kBadchC5Udu4qc1naJrfgK6GVI0pUg=";
+                version = "0.21.2";
+                url = "https://plugins.qgis.org/plugins/quick_map_services/version/0.21.2/download/";
+                hash = "sha256-REWMS30s8Z9HuI7d+sCoRUnXViuvwqsNyfSgHxBsdUo=";
             };
         
 
@@ -722,9 +722,9 @@
         
 
             Smart-Map = {
-                version = "1.4.2";
-                url = "https://plugins.qgis.org/plugins/Smart_Map/version/1.4.2/download/";
-                hash = "sha256-KZWQ4egvXF80fVYekwJogy5207uXK4srpIWGrtoPG4Q=";
+                version = "1.5";
+                url = "https://plugins.qgis.org/plugins/Smart_Map/version/1.5/download/";
+                hash = "sha256-+DFMSsc1kxePTiSRNSiCSmbT9oLNf9HtrDWU7gm1gBU=";
             };
         
 
@@ -753,6 +753,13 @@
                 version = "0.1";
                 url = "https://plugins.qgis.org/plugins/google-street-view-layer-master/version/0.1/download/";
                 hash = "sha256-n6oyg/Qcqn02o0GRPo8B4NURP8i/kQJcmVsqsX0Kx50=";
+            };
+        
+
+            Georeferencer-Extension = {
+                version = "3.0.8";
+                url = "https://plugins.qgis.org/plugins/GeorefExtension/version/3.0.8/download/";
+                hash = "sha256-DC1GayTRqWRVcLrfTNnQXEJqB37SGSfZQ+gqc+nR8tE=";
             };
         
 }
