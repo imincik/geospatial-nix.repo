@@ -1814,7 +1814,7 @@
 
             v-kriging = {
                 name = "v.kriging";
-                description = ''None'';
+                description = ''Interpolates 2D or 3D raster based on input values located on 2D or 3D point vector layer (method ordinary kriging extended to 3D).'';
             };
         
 
