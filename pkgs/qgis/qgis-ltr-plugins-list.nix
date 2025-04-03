@@ -64,9 +64,9 @@
         
 
             Lizmap = {
-                version = "4.4.7";
-                url = "https://plugins.qgis.org/plugins/lizmap/version/4.4.7/download/";
-                hash = "sha256-c6va98tLz/2ETaBZ6v/lxuA7BaaRJWW5hYoQDsmvSRg=";
+                version = "4.4.8";
+                url = "https://plugins.qgis.org/plugins/lizmap/version/4.4.8/download/";
+                hash = "sha256-6NaOj8npNiKmuoE5VD9MPhJ7Hzp57BfXif6Kt+l4MKI=";
             };
         
 
@@ -330,9 +330,9 @@
         
 
             OpenQuake-Integrated-Risk-Modelling-Toolkit = {
-                version = "3.23.0";
-                url = "https://plugins.qgis.org/plugins/svir/version/3.23.0/download/";
-                hash = "sha256-/V2mLTBYLn38Q7ctiHAp/5g1mlz/E0Vj9LozbvQa8JA=";
+                version = "3.23.1";
+                url = "https://plugins.qgis.org/plugins/svir/version/3.23.1/download/";
+                hash = "sha256-KRzVqm27Y5Ppe7JFfISOnleo9AcPpSan7g0m72U7oLE=";
             };
         
 
@@ -491,9 +491,9 @@
         
 
             Lat-Lon-Tools = {
-                version = "3.7.3";
-                url = "https://plugins.qgis.org/plugins/latlontools/version/3.7.3/download/";
-                hash = "sha256-w/o7mKWzOoBw+adkk/gbX5dj7i5RM9YkRJwjaTGtZ+0=";
+                version = "3.7.4";
+                url = "https://plugins.qgis.org/plugins/latlontools/version/3.7.4/download/";
+                hash = "sha256-ASB623FIcAqXbVBhKuOOBjkkKcQsW4aeVz2OJ55+sl0=";
             };
         
 
