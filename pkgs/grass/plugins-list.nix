@@ -1998,6 +1998,12 @@
             };
         
 
+            v-surf-rst-cv = {
+                name = "v.surf.rst.cv";
+                description = ''Performs cross-validation proceedure to optimize the parameterization of v.surf.rst tension and smoothing paramters.'';
+            };
+        
+
             v-surf-tps = {
                 name = "v.surf.tps";
                 description = ''Performs thin plate spline interpolation with regularization and covariables.'';
