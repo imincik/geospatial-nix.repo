@@ -64,9 +64,9 @@
         
 
             Lizmap = {
-                version = "4.4.8";
-                url = "https://plugins.qgis.org/plugins/lizmap/version/4.4.8/download/";
-                hash = "sha256-6NaOj8npNiKmuoE5VD9MPhJ7Hzp57BfXif6Kt+l4MKI=";
+                version = "4.4.9";
+                url = "https://plugins.qgis.org/plugins/lizmap/version/4.4.9/download/";
+                hash = "sha256-p+jty1B6J1nec6ZE0c3PXQNo9hXk58nm6jMAWlU5vfI=";
             };
         
 
@@ -316,9 +316,9 @@
         
 
             QuickOSM = {
-                version = "2.3.2";
-                url = "https://plugins.qgis.org/plugins/QuickOSM/version/2.3.2/download/";
-                hash = "sha256-IO+DsmuQc0XcXEMBUvgQiUZgC8WWSffdyx88dodfrUk=";
+                version = "2.4.1";
+                url = "https://plugins.qgis.org/plugins/QuickOSM/version/2.4.1/download/";
+                hash = "sha256-4VKtpzYM7kpfyosOq8LGA04QBSv2F+/idEE1F3EeS5U=";
             };
         
 
@@ -729,9 +729,9 @@
         
 
             LF-Tools = {
-                version = "2.1.3";
-                url = "https://plugins.qgis.org/plugins/lftools/version/2.1.3/download/";
-                hash = "sha256-SN1Ps2HXuPngHYxPsY1DayqKWDxfQ+MvVr33WkKGUi8=";
+                version = "2.1.4";
+                url = "https://plugins.qgis.org/plugins/lftools/version/2.1.4/download/";
+                hash = "sha256-QQeD5YUp4Fb0Jr2+svgVChvYPCJeJpCVxsYkSQV7dxk=";
             };
         
 
