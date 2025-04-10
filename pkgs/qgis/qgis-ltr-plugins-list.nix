@@ -400,9 +400,9 @@
         
 
             qgis2web = {
-                version = "3.25.1";
-                url = "https://plugins.qgis.org/plugins/qgis2web/version/3.25.1/download/";
-                hash = "sha256-0KMZRNHjZkDR1UodnK/lwD/LwwHByPAZ+EYX6vjGtQs=";
+                version = "3.26.0";
+                url = "https://plugins.qgis.org/plugins/qgis2web/version/3.26.0/download/";
+                hash = "sha256-+/bi3a4ur7iGu6kdjhHUdhf1gKHGOuz5wvYVgtqfIc8=";
             };
         
 
