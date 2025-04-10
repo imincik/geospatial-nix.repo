@@ -44,6 +44,12 @@ jobs:
           ./update-plugins.sh
           popd
 
+      - name: List of updated packages
+        run: >
+          nix run nixpkgs/nixpkgs-unstable#nvd -- diff
+          $(nix build github:imincik/geospatial-nix.repo/latest#all-packages --print-out-paths)
+          $(nix build .#all-packages --print-out-paths) > $GITHUB_STEP_SUMMARY
+
       - name: Generate branch name
         id: branch
         run: echo branch="weekly-update-$(date "+%Y.%V")" >> "$GITHUB_OUTPUT"
