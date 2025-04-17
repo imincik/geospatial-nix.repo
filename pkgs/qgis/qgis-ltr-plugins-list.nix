@@ -400,9 +400,9 @@
         
 
             qgis2web = {
-                version = "3.25.1";
-                url = "https://plugins.qgis.org/plugins/qgis2web/version/3.25.1/download/";
-                hash = "sha256-0KMZRNHjZkDR1UodnK/lwD/LwwHByPAZ+EYX6vjGtQs=";
+                version = "3.26.0";
+                url = "https://plugins.qgis.org/plugins/qgis2web/version/3.26.0/download/";
+                hash = "sha256-+/bi3a4ur7iGu6kdjhHUdhf1gKHGOuz5wvYVgtqfIc8=";
             };
         
 
@@ -687,9 +687,9 @@
         
 
             MapTiler = {
-                version = "3.4.1";
-                url = "https://plugins.qgis.org/plugins/qgis-maptiler-plugin/version/3.4.1/download/";
-                hash = "sha256-K3GkjKRVKPKR7g1QB9G1QT1T9RIoQWMhaUcY5DpZ/qo=";
+                version = "3.4.2";
+                url = "https://plugins.qgis.org/plugins/qgis-maptiler-plugin/version/3.4.2/download/";
+                hash = "sha256-v3fIOysavwz7Q8A6OQL1CaEnlUhs1yP9oyorqn4y614=";
             };
         
 
@@ -729,9 +729,9 @@
         
 
             LF-Tools = {
-                version = "2.1.4";
-                url = "https://plugins.qgis.org/plugins/lftools/version/2.1.4/download/";
-                hash = "sha256-QQeD5YUp4Fb0Jr2+svgVChvYPCJeJpCVxsYkSQV7dxk=";
+                version = "2.1.5";
+                url = "https://plugins.qgis.org/plugins/lftools/version/2.1.5/download/";
+                hash = "sha256-xi3TRUAi/CenqxXw2v4KZHtk0e1oWlX1B3CW0qFm1s0=";
             };
         
 
