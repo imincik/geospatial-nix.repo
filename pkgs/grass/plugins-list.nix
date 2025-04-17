@@ -294,12 +294,6 @@
             };
         
 
-            i-signature-remove = {
-                name = "i.signature.remove";
-                description = ''Removes signature file in a group/subgroup.'';
-            };
-        
-
             i-spec-sam = {
                 name = "i.spec.sam";
                 description = ''Performs Spectral angle mapping on satellite/aerial images'';
@@ -1239,6 +1233,12 @@
             r-soils-texture = {
                 name = "r.soils.texture";
                 description = ''Define soil texture from sand and clay grid.'';
+            };
+        
+
+            r-stone = {
+                name = "r.stone";
+                description = ''The STONE rockfall module'';
             };
         
 
