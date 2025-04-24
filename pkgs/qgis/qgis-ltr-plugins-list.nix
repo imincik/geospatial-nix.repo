@@ -155,9 +155,9 @@
         
 
             PDOK-services-plugin = {
-                version = "5.1.2";
-                url = "https://plugins.qgis.org/plugins/pdokservicesplugin/version/5.1.2/download/";
-                hash = "sha256-27etOPCb2d/lF+uc2r5pH+bi5YwsTubjCKMvG2vBE30=";
+                version = "5.1.3";
+                url = "https://plugins.qgis.org/plugins/pdokservicesplugin/version/5.1.3/download/";
+                hash = "sha256-VBG9dh1batd0ggF3SOp6Zkcwb+dMsKEDyw30KVKO8+o=";
             };
         
 
@@ -456,9 +456,9 @@
         
 
             OSMInfo = {
-                version = "1.1.1";
-                url = "https://plugins.qgis.org/plugins/osminfo/version/1.1.1/download/";
-                hash = "sha256-9o2skpWHjqtFuRACDsK/ExuLD0zPwbaf8rbqIP8HtyI=";
+                version = "1.2.0";
+                url = "https://plugins.qgis.org/plugins/osminfo/version/1.2.0/download/";
+                hash = "sha256-Ocr8eKNm/jYAK9wqhFN5wAPFT/jlDB2YI+w6dlg92ho=";
             };
         
 
@@ -701,9 +701,9 @@
         
 
             Pobieracz-danych-GUGiK = {
-                version = "1.2.7";
-                url = "https://plugins.qgis.org/plugins/pobieracz_danych_gugik/version/1.2.7/download/";
-                hash = "sha256-jNAMoHMozMqUqH6EC+TSV2AJTpM1bx/2eCPfn5/HAt4=";
+                version = "1.2.8";
+                url = "https://plugins.qgis.org/plugins/pobieracz_danych_gugik/version/1.2.8/download/";
+                hash = "sha256-LyamLbDWeqSBrMQ1lvhCqGN2ksL5JAVLG33YrPHBXgQ=";
             };
         
 
