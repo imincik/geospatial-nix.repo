@@ -64,9 +64,9 @@
         
 
             Lizmap = {
-                version = "4.4.9";
-                url = "https://plugins.qgis.org/plugins/lizmap/version/4.4.9/download/";
-                hash = "sha256-p+jty1B6J1nec6ZE0c3PXQNo9hXk58nm6jMAWlU5vfI=";
+                version = "4.5.0";
+                url = "https://plugins.qgis.org/plugins/lizmap/version/4.5.0/download/";
+                hash = "sha256-RfySLFOmunT2mT+uppR1lYw/npv259iN5nhwLPGiqVQ=";
             };
         
 
@@ -239,9 +239,9 @@
         
 
             cadastre = {
-                version = "2.0.1";
-                url = "https://plugins.qgis.org/plugins/cadastre/version/2.0.1/download/";
-                hash = "sha256-0WbHfSsrxT/x9B6Cfhc5yZ/+VxsIWHzzyONaekG1zGw=";
+                version = "2.1.1";
+                url = "https://plugins.qgis.org/plugins/cadastre/version/2.1.1/download/";
+                hash = "sha256-6VRFHh//X4a8rY7T8H+nh7ycxmHmfMulGstW9gKSxfg=";
             };
         
 
