@@ -322,6 +322,13 @@
             };
         
 
+            norGIS-ALKIS-Einbindung = {
+                version = "2.0.58";
+                url = "https://plugins.qgis.org/plugins/alkisplugin/version/2.0.58/download/";
+                hash = "sha256-eHSoCiBKP5wYrz8nV/J+om1r7Pv71tp6ucXV+/x+0Ow=";
+            };
+        
+
             ArcheoCAD = {
                 version = "3.2.2";
                 url = "https://plugins.qgis.org/plugins/ArcheoCAD/version/3.2.2/download/";
@@ -512,9 +519,9 @@
         
 
             QField-Sync = {
-                version = "v4.13.1";
-                url = "https://plugins.qgis.org/plugins/qfieldsync/version/v4.13.1/download/";
-                hash = "sha256-j4HV6q8fBQVW6/P9jAy7J9kJv8BzXfN6RGNlxUuqNwU=";
+                version = "v4.13.3";
+                url = "https://plugins.qgis.org/plugins/qfieldsync/version/v4.13.3/download/";
+                hash = "sha256-NK4RrZqJ56vM0WLUFa+yLjqsceXyMN0Aqz5A+aHeY/o=";
             };
         
 
@@ -729,16 +736,16 @@
         
 
             LF-Tools = {
-                version = "2.1.5";
-                url = "https://plugins.qgis.org/plugins/lftools/version/2.1.5/download/";
-                hash = "sha256-xi3TRUAi/CenqxXw2v4KZHtk0e1oWlX1B3CW0qFm1s0=";
+                version = "2.1.7";
+                url = "https://plugins.qgis.org/plugins/lftools/version/2.1.7/download/";
+                hash = "sha256-Wv92BizPvQvfAVIQ1OKePnfqEbFNtqmKy4ipIhA9aQo=";
             };
         
 
             Mapflow = {
-                version = "3.1.2";
-                url = "https://plugins.qgis.org/plugins/mapflow/version/3.1.2/download/";
-                hash = "sha256-IbNukVN7DTrVcYQcQYdhFZ0jONh9NGppqzWXaV2pq9M=";
+                version = "3.2.0";
+                url = "https://plugins.qgis.org/plugins/mapflow/version/3.2.0/download/";
+                hash = "sha256-cgKfOMDA7nvijcrakbq+6dfTeo1pA7n22Eqjq9OJUM0=";
             };
         
 
