@@ -211,9 +211,9 @@
         
 
             OSM-place-search = {
-                version = "1.4.5";
-                url = "https://plugins.qgis.org/plugins/nominatim/version/1.4.5/download/";
-                hash = "sha256-7zovfucUtIpNxG7o2RxiBJjyUZlhMPUCW6hXylTA3Jo=";
+                version = "1.5.0";
+                url = "https://plugins.qgis.org/plugins/nominatim/version/1.5.0/download/";
+                hash = "sha256-oxWXFEkM95310BmJgp+EH36uESsoFm951vf6zMbjb6o=";
             };
         
 
@@ -470,9 +470,9 @@
         
 
             TUFLOW = {
-                version = "3.14";
-                url = "https://plugins.qgis.org/plugins/tuflow/version/3.14/download/";
-                hash = "sha256-HxoNdYHgsQmvTe8qCoAGfw+o1fzAr7e0denm57GqAMU=";
+                version = "3.15";
+                url = "https://plugins.qgis.org/plugins/tuflow/version/3.15/download/";
+                hash = "sha256-scmCjVTnCxeIB1rw6zhAjsxOb87tDXfnv5mR1Mn66Gg=";
             };
         
 
@@ -519,9 +519,9 @@
         
 
             QField-Sync = {
-                version = "v4.13.3";
-                url = "https://plugins.qgis.org/plugins/qfieldsync/version/v4.13.3/download/";
-                hash = "sha256-NK4RrZqJ56vM0WLUFa+yLjqsceXyMN0Aqz5A+aHeY/o=";
+                version = "v4.14.0";
+                url = "https://plugins.qgis.org/plugins/qfieldsync/version/v4.14.0/download/";
+                hash = "sha256-JgHNeMOoxOQ+ZyeIafm7dkc+qBY/+19QQqUMW4RAYyw=";
             };
         
 
@@ -610,9 +610,9 @@
         
 
             LAStools = {
-                version = "2.2.0";
-                url = "https://plugins.qgis.org/plugins/LAStools/version/2.2.0/download/";
-                hash = "sha256-/7knFauA/cX6+VyC0Q045mG3TfhVnTxZoQizZdjQ3h0=";
+                version = "2.3.0";
+                url = "https://plugins.qgis.org/plugins/LAStools/version/2.3.0/download/";
+                hash = "sha256-HqUKNNre48wrNofrTBA4ZovzrIAIC/h23elQe3PgvPE=";
             };
         
 
@@ -673,9 +673,9 @@
         
 
             Wtyczka-GIS-Support = {
-                version = "2.7";
-                url = "https://plugins.qgis.org/plugins/gissupport_plugin/version/2.7/download/";
-                hash = "sha256-d2vvKUSe+Lkv103W/Jj+zIatFtSU3lTprfy9Ys+RMLo=";
+                version = "2.8";
+                url = "https://plugins.qgis.org/plugins/gissupport_plugin/version/2.8/download/";
+                hash = "sha256-eNXgfb5csL7RC181ugTk+wZrUW/U8Q/FcFOD1VPJJV4=";
             };
         
 
