@@ -27,6 +27,8 @@ jobs:
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
 
+    - uses: wimpysworld/nothing-but-nix@main
+
     - name: Install nix
       uses: cachix/install-nix-action@V27
 
@@ -58,6 +60,8 @@ jobs:
       uses: actions/checkout@v4
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
+
+    - uses: wimpysworld/nothing-but-nix@main
 
     - name: Install nix
       uses: cachix/install-nix-action@V27
