@@ -24,7 +24,7 @@ src_meta = get_src_meta(revision)
 
 print("{")  # opening curly
 
-print(f"  rev = \"{src_meta['rev'][:7]}\";")
+print(f"  rev = \"{src_meta['rev']}\";")
 print(f"  hash = \"{src_meta['hash']}\";")
 
 print("}")  # closing curly
