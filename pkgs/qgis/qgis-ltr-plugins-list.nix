@@ -99,9 +99,9 @@
         
 
             InaSAFE = {
-                version = "5.0.6";
-                url = "https://plugins.qgis.org/plugins/inasafe/version/5.0.6/download/";
-                hash = "sha256-1Wi9rvLRLD5HRlOYxXUQSJR694P0NWn9q1PY0sqBIaY=";
+                version = "5.0.7";
+                url = "https://plugins.qgis.org/plugins/inasafe/version/5.0.7/download/";
+                hash = "sha256-y34ZkBMrQnMeaDt7E4BMVP1Pl8ce0Gjq8ws2lNVZ/GY=";
             };
         
 
@@ -113,9 +113,9 @@
         
 
             QGIS-Cloud-Plugin = {
-                version = "3.9.15";
-                url = "https://plugins.qgis.org/plugins/qgiscloud/version/3.9.15/download/";
-                hash = "sha256-ycp4MQ6Oz1UWGahPRFaC1j9pfcSSnfJRGtw2jSSCBgo=";
+                version = "3.9.16";
+                url = "https://plugins.qgis.org/plugins/qgiscloud/version/3.9.16/download/";
+                hash = "sha256-cYzW9Nd6fWUrQ06LtuNIo3BJwfCeKPFG/t2iGzB0GhM=";
             };
         
 
@@ -162,9 +162,9 @@
         
 
             MOLUSCE = {
-                version = "4.2.1";
-                url = "https://plugins.qgis.org/plugins/molusce/version/4.2.1/download/";
-                hash = "sha256-UIVylaLKo8OFYjdb5Z/eSB96yiR+yQjEHF76Iq2Gv6E=";
+                version = "5.0.0";
+                url = "https://plugins.qgis.org/plugins/molusce/version/5.0.0/download/";
+                hash = "sha256-CW8Kpf+Bh8caeBKAqKxb65E99IhrRjl0pKc5VMQ3Dj4=";
             };
         
 
@@ -470,9 +470,9 @@
         
 
             TUFLOW = {
-                version = "3.15";
-                url = "https://plugins.qgis.org/plugins/tuflow/version/3.15/download/";
-                hash = "sha256-scmCjVTnCxeIB1rw6zhAjsxOb87tDXfnv5mR1Mn66Gg=";
+                version = "3.15.1";
+                url = "https://plugins.qgis.org/plugins/tuflow/version/3.15.1/download/";
+                hash = "sha256-RngfA1yunJD+AGxMg99AkkvfXTULFBpf/4Fupghk6A4=";
             };
         
 
@@ -655,6 +655,13 @@
                 version = "2025.1.1";
                 url = "https://plugins.qgis.org/plugins/Mergin/version/2025.1.1/download/";
                 hash = "sha256-PawhS0xueWrfLjNmx+kmS8cmG9/hQJ9WBQ4CEY+Ys9w=";
+            };
+        
+
+            AusMap = {
+                version = "2.0";
+                url = "https://plugins.qgis.org/plugins/AusMap/version/2.0/download/";
+                hash = "sha256-4n5WgmNhwSkstqfiX8+U2M40kakTnYxm6IxfJMaINeU=";
             };
         
 
