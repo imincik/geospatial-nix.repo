@@ -570,6 +570,12 @@
             };
         
 
+            r-earthworks = {
+                name = "r.earthworks";
+                description = ''Earthworks'';
+            };
+        
+
             r-edm-eval = {
                 name = "r.edm.eval";
                 description = ''Computes evaluation statistics for a given prediction layer'';
