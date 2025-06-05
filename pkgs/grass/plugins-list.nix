@@ -540,6 +540,12 @@
             };
         
 
+            r-curvenumber = {
+                name = "r.curvenumber";
+                description = ''Generates the Curve Number raster from the landcover and hydrologic soil group rasters'';
+            };
+        
+
             r-damflood = {
                 name = "r.damflood";
                 description = ''Estimate the area potentially inundated in case of dam break'';
@@ -1820,7 +1826,7 @@
 
             v-kriging = {
                 name = "v.kriging";
-                description = ''None'';
+                description = ''Interpolates 2D or 3D raster based on input values located on 2D or 3D point vector layer (method ordinary kriging extended to 3D).'';
             };
         
 

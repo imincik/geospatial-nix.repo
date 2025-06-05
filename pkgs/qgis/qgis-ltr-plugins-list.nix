@@ -64,9 +64,9 @@
         
 
             Lizmap = {
-                version = "4.5.0";
-                url = "https://plugins.qgis.org/plugins/lizmap/version/4.5.0/download/";
-                hash = "sha256-RfySLFOmunT2mT+uppR1lYw/npv259iN5nhwLPGiqVQ=";
+                version = "4.5.1";
+                url = "https://plugins.qgis.org/plugins/lizmap/version/4.5.1/download/";
+                hash = "sha256-aVFcAciucxwvXO43oIpZz1GZWM2rcouQVGxOvswgG/Y=";
             };
         
 
@@ -393,9 +393,9 @@
         
 
             DSG-Tools = {
-                version = "4.16.0";
-                url = "https://plugins.qgis.org/plugins/DsgTools/version/4.16.0/download/";
-                hash = "sha256-TI8Y6wUMBras6X2BrP/I7q6vWktJIYoXSsaSXC767Xo=";
+                version = "4.18.0";
+                url = "https://plugins.qgis.org/plugins/DsgTools/version/4.18.0/download/";
+                hash = "sha256-F1coA3oHqsOiBsTKj7gqwuwg4UFkXhMqEesdoJO7GGo=";
             };
         
 
@@ -470,16 +470,16 @@
         
 
             TUFLOW = {
-                version = "3.15.3";
-                url = "https://plugins.qgis.org/plugins/tuflow/version/3.15.3/download/";
-                hash = "sha256-JwpQkJcv8Ir5aV5Hapm+uXt89GqWKuRCoWx+gj3Uqes=";
+                version = "3.15.4";
+                url = "https://plugins.qgis.org/plugins/tuflow/version/3.15.4/download/";
+                hash = "sha256-jtOOWGs0IebOkBG/ZQz/HsMYdM2uEILNlJxYEEky0tE=";
             };
         
 
             QAD = {
-                version = "3.0.6";
-                url = "https://plugins.qgis.org/plugins/qad/version/3.0.6/download/";
-                hash = "sha256-bo60n1EZjpaIiIopbqbPS+uou8m8BW/U3e1yH9fzV3Y=";
+                version = "3.0.7";
+                url = "https://plugins.qgis.org/plugins/qad/version/3.0.7/download/";
+                hash = "sha256-PmVsk3kbTKoOcFgdJnaW3hPeBc5E/IyEVVl4sO4QbfU=";
             };
         
 
@@ -638,9 +638,9 @@
         
 
             ORS-Tools = {
-                version = "2.0.0";
-                url = "https://plugins.qgis.org/plugins/ORStools/version/2.0.0/download/";
-                hash = "sha256-iOsAOsbdD7DqsljAOc+s09vHr5W0ndgSl+dgrxYsAQU=";
+                version = "2.0.1";
+                url = "https://plugins.qgis.org/plugins/ORStools/version/2.0.1/download/";
+                hash = "sha256-Z6DlNekMsGoKHn4zMS0yfPn6kHRmfLjgm4n1U77024o=";
             };
         
 
