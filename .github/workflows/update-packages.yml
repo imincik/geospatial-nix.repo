@@ -32,11 +32,12 @@ jobs:
           ./update-master.sh
           popd
 
-      - name: Update QGIS plugins
-        run: |
-          pushd pkgs/qgis
-          ./update-plugins.sh
-          popd
+      # FIXME: QGIS plugins update disabled due to breaking changes in plugins XML
+      # - name: Update QGIS plugins
+      #   run: |
+      #     pushd pkgs/qgis
+      #     ./update-plugins.sh
+      #     popd
 
       - name: Update GRASS plugins
         run: |
