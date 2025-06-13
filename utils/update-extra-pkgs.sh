@@ -17,14 +17,13 @@ git commit -m "gdal-master: weekly update"
 
 
 # QGIS plugins
-# FIXME: QGIS plugins update disabled due to changes in plugins XML
-# echo -e "\nUpdating QGIS plugins ..."
-# pushd pkgs/qgis
-# ./update-plugins.sh
-# popd
+echo -e "\nUpdating QGIS plugins ..."
+pushd pkgs/qgis
+./update-plugins.sh
+popd
 
-# git add pkgs/qgis/*-plugins-list.nix
-# git commit -m "qgis-plugins: weekly update"
+git add pkgs/qgis/*-plugins-list.nix
+git commit -m "qgis-plugins: weekly update"
 
 
 # GRASS plugins
