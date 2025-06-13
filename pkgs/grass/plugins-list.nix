@@ -702,6 +702,12 @@
             };
         
 
+            r-gravity-terrain = {
+                name = "r.gravity.terrain";
+                description = ''A GRASS tool to calculate gravity terrain corrections'';
+            };
+        
+
             r-gsflow-hydrodem = {
                 name = "r.gsflow.hydrodem";
                 description = ''Creates hydrologically correct MODFLOW DEM from higher-res DEM'';
