@@ -1,4 +1,4 @@
 {
-  rev = "b31cdc019e9113d8443abfc640479d2d6dc82a8c";
-  hash = "sha256-9wB7zEdj93ji0T14bnpdFB128BBRUE/Ujyh4k02NU+Y=";
+  rev = "833bde96e7fa93037da4371c9a7e0dfe279669d7";
+  hash = "sha256-rhpKtuGi+h+QF3BKUojkwAUn0CQFSvrB+5pxdr5Z1wk=";
 }
