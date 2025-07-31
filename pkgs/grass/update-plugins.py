@@ -33,6 +33,7 @@ DISABLED_PLUGINS = [
     "i.gravity",  # can't build with gcc14
     "i.lmf",  # can't build with gcc14
     "i.sam2"  # No module named 'torch'
+    "r.lfp"  # can't build
 ]
 
 def fix_plugin_name(name):
