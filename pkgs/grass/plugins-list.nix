@@ -258,6 +258,12 @@
             };
         
 
+            i-sam2 = {
+                name = "i.sam2";
+                description = ''Integrates SAMGeo model with text prompt for segmentation in GRASS GIS.'';
+            };
+        
+
             i-sar-speckle = {
                 name = "i.sar.speckle";
                 description = ''Remove speckle from SAR image'';
@@ -849,6 +855,12 @@
             r-learn-ml2 = {
                 name = "r.learn.ml2";
                 description = ''None'';
+            };
+        
+
+            r-lfp = {
+                name = "r.lfp";
+                description = ''Calculates the longest flow path from a flow direction raster map and a outlets vector map using the Memory-Efficient Longest Flow Path (MELFP) OpenMP parallel algorithm by Cho (2025).'';
             };
         
 
