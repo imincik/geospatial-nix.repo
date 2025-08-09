@@ -858,12 +858,6 @@
             };
         
 
-            r-lfp = {
-                name = "r.lfp";
-                description = ''Calculates the longest flow path from a flow direction raster map and a outlets vector map using the Memory-Efficient Longest Flow Path (MELFP) OpenMP parallel algorithm by Cho (2025).'';
-            };
-        
-
             r-local-relief = {
                 name = "r.local.relief";
                 description = ''Creates a local relief model from elevation map.'';
