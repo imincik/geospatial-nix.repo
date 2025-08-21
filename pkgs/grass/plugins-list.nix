@@ -258,12 +258,6 @@
             };
         
 
-            i-sam2 = {
-                name = "i.sam2";
-                description = ''Integrates SAMGeo model with text prompt for segmentation in GRASS GIS.'';
-            };
-        
-
             i-sar-speckle = {
                 name = "i.sar.speckle";
                 description = ''Remove speckle from SAR image'';
