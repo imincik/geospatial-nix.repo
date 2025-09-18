@@ -636,12 +636,6 @@
             };
         
 
-            r-flowaccumulation = {
-                name = "r.flowaccumulation";
-                description = ''Calculates flow accumulation from a flow direction raster map using the Memory-Efficient Flow Accumulation (MEFA) parallel algorithm by Cho (2023).'';
-            };
-        
-
             r-flowfill = {
                 name = "r.flowfill";
                 description = ''Moves water downhill into pools or the ocean/map edge'';
