@@ -744,12 +744,6 @@
             };
         
 
-            r-hydrobasin = {
-                name = "r.hydrobasin";
-                description = ''Delineates a large number of watersheds using the Memory-Efficient Watershed Delineation (MESHED) OpenMP parallel algorithm by Cho (2025).'';
-            };
-        
-
             r-hydrodem = {
                 name = "r.hydrodem";
                 description = ''Hydrological conditioning, sink removal'';

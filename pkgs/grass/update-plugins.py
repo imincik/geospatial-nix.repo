@@ -35,6 +35,7 @@ DISABLED_PLUGINS = [
     "i.sam2",  # No module named 'torch'
     "r.lfp"  # can't build
     "r.flowaccumulation"  # can't build
+    "r.hydrobasin"  # can't build
 ]
 
 def fix_plugin_name(name):
